@@ -1,0 +1,200 @@
+[13-Apr-2026 09:40:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[24-Apr-2026 05:15:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[28-Apr-2026 05:23:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[30-Apr-2026 00:28:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[03-May-2026 09:10:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[09-May-2026 16:34:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[10-May-2026 14:27:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[10-May-2026 22:04:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[11-May-2026 21:56:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[14-May-2026 11:14:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[14-May-2026 11:14:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[20-May-2026 00:38:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[25-May-2026 18:22:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[28-May-2026 21:17:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[03-Jun-2026 12:21:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[07-Jun-2026 17:50:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[09-Jun-2026 15:00:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[13-Jun-2026 23:44:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[16-Jun-2026 01:32:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[18-Jun-2026 19:25:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[26-Jun-2026 18:54:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[27-Jun-2026 02:36:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[01-Jul-2026 06:29:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[05-Jul-2026 06:55:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[18-Jul-2026 22:09:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[22-Jul-2026 00:43:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[22-Jul-2026 06:55:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[24-Jul-2026 08:05:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[25-Jul-2026 06:53:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[29-Jul-2026 03:27:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[30-Jul-2026 15:53:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[30-Jul-2026 15:53:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[30-Jul-2026 15:53:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[30-Jul-2026 15:53:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[02-Aug-2026 04:29:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[03-Aug-2026 04:40:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[15-Aug-2026 02:55:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[17-Aug-2026 06:46:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[17-Aug-2026 06:46:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[17-Aug-2026 06:46:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[21-Aug-2026 02:27:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[21-Aug-2026 18:34:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[22-Aug-2026 02:34:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[22-Aug-2026 10:35:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[26-Aug-2026 05:19:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[27-Aug-2026 03:58:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[29-Aug-2026 05:36:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[29-Aug-2026 09:52:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[29-Aug-2026 15:30:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14
+[30-Aug-2026 04:06:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/bootstrap/app.php on line 14

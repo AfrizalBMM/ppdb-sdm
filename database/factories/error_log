@@ -1,0 +1,172 @@
+[07-Apr-2026 08:56:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[09-Apr-2026 10:31:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[11-Apr-2026 12:10:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[15-Apr-2026 20:53:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[17-Apr-2026 14:50:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[19-Apr-2026 02:08:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[19-Apr-2026 21:35:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[21-Apr-2026 15:23:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[23-Apr-2026 15:03:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[24-Apr-2026 14:44:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[25-Apr-2026 17:08:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[28-Apr-2026 04:49:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[29-Apr-2026 18:48:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[05-May-2026 16:17:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[09-May-2026 15:48:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[10-May-2026 14:47:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[10-May-2026 21:26:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[17-May-2026 10:53:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[29-May-2026 01:15:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[30-May-2026 02:12:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[03-Jun-2026 08:59:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[11-Jun-2026 07:06:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[14-Jun-2026 06:05:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[15-Jun-2026 12:42:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[15-Jun-2026 19:04:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[18-Jun-2026 18:48:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[27-Jun-2026 12:06:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[28-Jun-2026 14:31:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[01-Jul-2026 11:44:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[13-Jul-2026 08:30:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[21-Jul-2026 07:12:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[22-Jul-2026 00:05:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[22-Jul-2026 06:52:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[25-Jul-2026 11:54:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[29-Jul-2026 06:14:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[10-Aug-2026 05:07:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[17-Aug-2026 15:38:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[17-Aug-2026 15:38:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[17-Aug-2026 15:38:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[22-Aug-2026 07:44:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[29-Aug-2026 09:51:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[29-Aug-2026 16:43:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12
+[30-Aug-2026 07:03:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Factories\Factory" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/database/factories/UserFactory.php on line 12

@@ -1,0 +1,952 @@
+[05-Apr-2026 18:03:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[07-Apr-2026 10:24:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[07-Apr-2026 15:51:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[09-Apr-2026 15:05:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[16-Apr-2026 02:03:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[18-Apr-2026 05:44:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[20-Apr-2026 01:46:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[21-Apr-2026 11:15:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[21-Apr-2026 11:58:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[21-Apr-2026 13:35:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[21-Apr-2026 18:06:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[21-Apr-2026 18:24:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[21-Apr-2026 20:17:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[21-Apr-2026 20:29:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[24-Apr-2026 08:16:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[26-Apr-2026 14:49:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[26-Apr-2026 15:02:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[26-Apr-2026 15:24:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[26-Apr-2026 15:28:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[26-Apr-2026 15:38:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[26-Apr-2026 15:39:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[26-Apr-2026 15:47:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[26-Apr-2026 15:48:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[28-Apr-2026 20:15:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[02-May-2026 10:58:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[02-May-2026 10:58:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[02-May-2026 10:58:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[02-May-2026 10:58:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[02-May-2026 10:59:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[02-May-2026 11:00:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[02-May-2026 11:01:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[04-May-2026 07:57:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-May-2026 01:34:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[05-May-2026 01:34:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-May-2026 01:34:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[05-May-2026 01:35:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[05-May-2026 01:35:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[05-May-2026 01:35:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[05-May-2026 01:35:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[05-May-2026 01:41:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[05-May-2026 01:41:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-May-2026 01:41:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[05-May-2026 01:41:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[05-May-2026 01:41:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[05-May-2026 01:41:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[05-May-2026 01:41:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[05-May-2026 14:14:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[05-May-2026 15:35:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[05-May-2026 17:17:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[05-May-2026 17:41:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-May-2026 18:59:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[05-May-2026 19:15:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[05-May-2026 19:47:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[05-May-2026 20:18:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[05-May-2026 20:20:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[05-May-2026 21:07:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[05-May-2026 23:28:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-May-2026 23:31:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[06-May-2026 00:00:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[06-May-2026 01:59:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[06-May-2026 13:54:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[10-May-2026 13:19:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[10-May-2026 13:20:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[10-May-2026 13:22:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[10-May-2026 18:04:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[10-May-2026 18:31:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[10-May-2026 18:32:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[10-May-2026 19:28:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[10-May-2026 20:34:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[10-May-2026 22:59:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[10-May-2026 23:00:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[10-May-2026 23:01:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[10-May-2026 23:04:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[10-May-2026 23:05:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[10-May-2026 23:05:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[11-May-2026 15:03:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[11-May-2026 15:04:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[11-May-2026 15:06:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[11-May-2026 19:28:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[11-May-2026 20:00:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[11-May-2026 20:01:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[11-May-2026 20:57:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[11-May-2026 21:56:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[11-May-2026 23:33:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[23-May-2026 00:27:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[23-May-2026 01:45:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[23-May-2026 01:54:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[23-May-2026 02:54:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[23-May-2026 03:11:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[23-May-2026 07:21:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[23-May-2026 09:07:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[23-May-2026 10:51:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[02-Jun-2026 13:05:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[03-Jun-2026 04:46:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[03-Jun-2026 05:49:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[03-Jun-2026 07:54:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[03-Jun-2026 09:12:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[03-Jun-2026 12:21:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[03-Jun-2026 16:08:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[03-Jun-2026 16:30:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[03-Jun-2026 18:02:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[07-Jun-2026 16:22:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[07-Jun-2026 16:29:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[07-Jun-2026 16:55:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[07-Jun-2026 17:04:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[07-Jun-2026 19:00:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[07-Jun-2026 19:32:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[08-Jun-2026 00:51:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[08-Jun-2026 02:04:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[08-Jun-2026 02:12:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[08-Jun-2026 02:42:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[08-Jun-2026 03:48:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[08-Jun-2026 07:57:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[08-Jun-2026 12:04:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[08-Jun-2026 21:24:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[08-Jun-2026 23:32:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[10-Jun-2026 15:40:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[13-Jun-2026 00:33:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[13-Jun-2026 02:30:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[13-Jun-2026 02:30:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[13-Jun-2026 02:31:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[13-Jun-2026 03:00:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[19-Jun-2026 05:49:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[19-Jun-2026 05:50:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[19-Jun-2026 05:52:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[19-Jun-2026 06:17:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[19-Jun-2026 07:01:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[19-Jun-2026 07:30:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[19-Jun-2026 08:13:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[19-Jun-2026 09:48:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[19-Jun-2026 10:15:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[19-Jun-2026 10:38:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[19-Jun-2026 10:43:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[19-Jun-2026 10:48:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[19-Jun-2026 11:37:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[19-Jun-2026 12:44:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[19-Jun-2026 13:03:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[19-Jun-2026 15:22:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[01-Jul-2026 00:24:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[01-Jul-2026 00:25:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[01-Jul-2026 04:30:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[01-Jul-2026 07:20:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[01-Jul-2026 10:34:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[01-Jul-2026 11:09:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[01-Jul-2026 12:54:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[01-Jul-2026 13:23:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-Jul-2026 00:25:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[05-Jul-2026 02:47:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[05-Jul-2026 03:01:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[05-Jul-2026 05:32:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[05-Jul-2026 05:51:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[05-Jul-2026 06:59:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[05-Jul-2026 07:46:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[05-Jul-2026 08:22:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[17-Jul-2026 02:48:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[17-Jul-2026 02:49:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[17-Jul-2026 02:53:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[17-Jul-2026 04:05:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[17-Jul-2026 05:22:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[17-Jul-2026 06:07:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[17-Jul-2026 10:00:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[17-Jul-2026 10:36:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[20-Jul-2026 15:47:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[20-Jul-2026 15:56:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[20-Jul-2026 15:56:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[20-Jul-2026 17:07:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[22-Jul-2026 10:05:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Jul-2026 10:06:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Jul-2026 10:08:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Jul-2026 11:41:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[22-Jul-2026 11:42:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[22-Jul-2026 11:45:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[22-Jul-2026 13:45:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[22-Jul-2026 13:49:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[22-Jul-2026 13:55:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[22-Jul-2026 13:56:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[22-Jul-2026 14:10:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[22-Jul-2026 14:13:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[22-Jul-2026 14:14:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[22-Jul-2026 14:25:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[22-Jul-2026 15:04:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[24-Jul-2026 08:09:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Jul-2026 08:10:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[25-Jul-2026 05:43:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[25-Jul-2026 05:46:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[28-Jul-2026 23:28:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[29-Jul-2026 01:20:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[29-Jul-2026 02:24:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[29-Jul-2026 03:31:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[29-Jul-2026 04:50:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[29-Jul-2026 05:04:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[29-Jul-2026 08:50:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[29-Jul-2026 10:19:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[02-Aug-2026 04:39:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[02-Aug-2026 06:52:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[02-Aug-2026 08:55:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[02-Aug-2026 09:09:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[02-Aug-2026 10:40:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[02-Aug-2026 11:30:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[02-Aug-2026 13:23:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[02-Aug-2026 14:56:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[14-Aug-2026 03:21:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[14-Aug-2026 04:34:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[14-Aug-2026 05:42:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[14-Aug-2026 06:57:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[14-Aug-2026 08:31:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[14-Aug-2026 08:39:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[14-Aug-2026 14:23:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[14-Aug-2026 14:31:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[24-Aug-2026 23:48:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[24-Aug-2026 23:48:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[24-Aug-2026 23:55:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[24-Aug-2026 23:55:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[25-Aug-2026 21:19:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[25-Aug-2026 22:41:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[25-Aug-2026 23:56:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[26-Aug-2026 00:14:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[26-Aug-2026 02:23:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[26-Aug-2026 06:30:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[26-Aug-2026 11:14:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[29-Aug-2026 10:30:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[29-Aug-2026 10:30:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[29-Aug-2026 10:41:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[29-Aug-2026 10:41:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[29-Aug-2026 10:44:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[29-Aug-2026 21:09:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustProxies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustProxies.php on line 8
+[29-Aug-2026 22:22:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[29-Aug-2026 22:39:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[29-Aug-2026 22:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[29-Aug-2026 22:39:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[29-Aug-2026 22:40:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[29-Aug-2026 22:40:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[30-Aug-2026 01:38:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Middleware\TrustHosts" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrustHosts.php on line 7
+[30-Aug-2026 02:48:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/EncryptCookies.php on line 7
+[30-Aug-2026 04:19:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/TrimStrings.php on line 7
+[30-Aug-2026 07:08:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/ValidateSignature.php on line 7
+[30-Aug-2026 07:24:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Auth\Middleware\Authenticate" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/Authenticate.php on line 8
+[30-Aug-2026 08:20:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Middleware/VerifyCsrfToken.php on line 7

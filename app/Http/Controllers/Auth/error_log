@@ -1,0 +1,116 @@
+[07-Apr-2026 15:27:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[20-Apr-2026 11:52:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[24-Apr-2026 01:19:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[26-Apr-2026 15:01:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[30-Apr-2026 00:15:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[30-Apr-2026 11:48:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[04-May-2026 09:16:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[05-May-2026 04:28:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[05-May-2026 04:32:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[09-May-2026 14:59:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[12-May-2026 01:57:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[17-May-2026 11:57:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[21-May-2026 12:51:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[03-Jun-2026 06:40:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[11-Jun-2026 16:29:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[12-Jun-2026 21:36:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[15-Jun-2026 16:54:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[21-Jun-2026 01:48:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[27-Jun-2026 10:11:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[01-Jul-2026 02:09:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[09-Jul-2026 11:24:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[12-Jul-2026 23:19:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[22-Jul-2026 19:30:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[24-Jul-2026 03:46:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[29-Jul-2026 06:46:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[06-Aug-2026 05:42:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[10-Aug-2026 11:03:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[29-Aug-2026 12:25:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9
+[30-Aug-2026 09:35:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Controllers/Auth/LoginController.php on line 9

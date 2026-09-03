@@ -1,0 +1,1320 @@
+[13-Apr-2026 06:43:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[19-Apr-2026 20:14:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[19-Apr-2026 20:15:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[19-Apr-2026 20:16:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[21-Apr-2026 15:24:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[21-Apr-2026 16:57:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[21-Apr-2026 17:04:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[23-Apr-2026 12:25:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[23-Apr-2026 15:04:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[23-Apr-2026 16:22:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[25-Apr-2026 15:37:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[25-Apr-2026 15:37:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[26-Apr-2026 21:45:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[27-Apr-2026 04:59:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Apr-2026 06:50:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Apr-2026 08:01:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[27-Apr-2026 08:24:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[27-Apr-2026 08:40:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[27-Apr-2026 08:48:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[27-Apr-2026 08:51:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[28-Apr-2026 00:57:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-Apr-2026 01:24:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[28-Apr-2026 03:16:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[28-Apr-2026 03:42:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[28-Apr-2026 04:18:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-Apr-2026 04:25:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[28-Apr-2026 07:36:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[28-Apr-2026 08:15:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-Apr-2026 13:37:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[29-Apr-2026 04:22:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[29-Apr-2026 16:50:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[29-Apr-2026 16:59:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[29-Apr-2026 20:53:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[30-Apr-2026 12:25:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[01-May-2026 08:03:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[01-May-2026 12:15:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[01-May-2026 12:26:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[02-May-2026 01:33:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[02-May-2026 11:04:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[02-May-2026 13:45:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[02-May-2026 15:13:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[02-May-2026 18:00:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[04-May-2026 09:27:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[04-May-2026 09:27:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[04-May-2026 09:27:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[04-May-2026 09:27:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[04-May-2026 14:23:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[04-May-2026 14:23:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[04-May-2026 14:23:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[04-May-2026 14:23:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[05-May-2026 16:03:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[05-May-2026 22:36:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[06-May-2026 21:06:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[06-May-2026 21:06:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[06-May-2026 21:08:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[06-May-2026 21:09:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[09-May-2026 08:53:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[09-May-2026 12:17:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[09-May-2026 13:53:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[09-May-2026 13:56:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[09-May-2026 13:57:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[09-May-2026 14:16:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[09-May-2026 14:57:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[09-May-2026 19:28:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[09-May-2026 23:12:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[10-May-2026 02:12:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[10-May-2026 02:12:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[10-May-2026 17:49:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[10-May-2026 19:14:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[10-May-2026 20:30:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[10-May-2026 20:48:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[11-May-2026 00:26:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[11-May-2026 02:44:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[12-May-2026 04:58:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[13-May-2026 17:05:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[14-May-2026 00:40:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[15-May-2026 06:31:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[19-May-2026 12:47:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[19-May-2026 14:11:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[20-May-2026 03:12:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[20-May-2026 14:40:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[21-May-2026 00:39:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[28-May-2026 01:54:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-May-2026 03:20:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[28-May-2026 06:13:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[28-May-2026 09:48:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[28-May-2026 16:25:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[28-May-2026 19:18:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[28-May-2026 19:39:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[28-May-2026 20:02:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-May-2026 21:10:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-May-2026 21:41:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[28-May-2026 22:06:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[28-May-2026 22:19:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[28-May-2026 22:48:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[28-May-2026 23:14:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[29-May-2026 01:05:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[29-May-2026 12:03:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[31-May-2026 10:29:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[31-May-2026 21:35:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[01-Jun-2026 13:54:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[03-Jun-2026 05:13:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[03-Jun-2026 05:33:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[03-Jun-2026 05:37:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[03-Jun-2026 05:40:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[03-Jun-2026 10:53:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[03-Jun-2026 15:44:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[08-Jun-2026 01:20:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[12-Jun-2026 18:02:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[12-Jun-2026 21:35:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[12-Jun-2026 21:54:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[12-Jun-2026 23:07:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:22
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 22
+[13-Jun-2026 00:21:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[13-Jun-2026 07:55:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[13-Jun-2026 08:02:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[13-Jun-2026 08:12:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[16-Jun-2026 18:25:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[17-Jun-2026 03:09:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[17-Jun-2026 12:30:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[18-Jun-2026 15:25:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[18-Jun-2026 17:08:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[18-Jun-2026 17:41:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[18-Jun-2026 18:19:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[18-Jun-2026 18:29:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[18-Jun-2026 21:22:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[18-Jun-2026 21:30:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[18-Jun-2026 22:11:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[18-Jun-2026 22:35:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[20-Jun-2026 07:06:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[25-Jun-2026 17:28:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[25-Jun-2026 17:29:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[25-Jun-2026 17:30:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[25-Jun-2026 17:31:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[26-Jun-2026 17:02:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[26-Jun-2026 23:58:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[27-Jun-2026 00:37:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Jun-2026 03:05:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Jun-2026 03:38:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[27-Jun-2026 09:45:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[27-Jun-2026 10:17:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[27-Jun-2026 10:19:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jun-2026 22:57:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[01-Jul-2026 07:50:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[01-Jul-2026 09:44:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[01-Jul-2026 09:47:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[03-Jul-2026 04:43:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[03-Jul-2026 05:03:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[03-Jul-2026 06:19:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[03-Jul-2026 06:35:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[03-Jul-2026 06:42:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[03-Jul-2026 06:51:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[03-Jul-2026 07:50:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[05-Jul-2026 13:38:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[11-Jul-2026 05:20:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[11-Jul-2026 05:31:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[12-Jul-2026 06:58:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[14-Jul-2026 22:37:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[15-Jul-2026 09:14:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[16-Jul-2026 02:09:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[16-Jul-2026 03:05:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Jul-2026 01:13:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Jul-2026 01:13:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[17-Jul-2026 01:19:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Jul-2026 09:13:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[17-Jul-2026 10:39:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[18-Jul-2026 14:21:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[18-Jul-2026 16:18:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[18-Jul-2026 17:00:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[18-Jul-2026 17:06:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[18-Jul-2026 18:06:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[18-Jul-2026 19:06:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[20-Jul-2026 19:41:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[21-Jul-2026 22:39:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[21-Jul-2026 23:08:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[21-Jul-2026 23:33:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[21-Jul-2026 23:42:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[22-Jul-2026 02:41:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[22-Jul-2026 03:27:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[24-Jul-2026 08:05:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[24-Jul-2026 08:05:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[24-Jul-2026 08:05:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[24-Jul-2026 08:05:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[24-Jul-2026 08:05:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[25-Jul-2026 00:15:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[25-Jul-2026 00:47:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[25-Jul-2026 05:29:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[25-Jul-2026 07:56:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[25-Jul-2026 08:30:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[25-Jul-2026 09:39:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[25-Jul-2026 13:53:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Jul-2026 04:28:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Jul-2026 15:02:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[27-Jul-2026 15:03:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[27-Jul-2026 15:46:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Jul-2026 23:39:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[29-Jul-2026 12:50:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[29-Jul-2026 13:53:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[29-Jul-2026 14:41:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[30-Jul-2026 15:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[30-Jul-2026 15:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[30-Jul-2026 15:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[30-Jul-2026 15:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[30-Jul-2026 15:53:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[30-Jul-2026 15:53:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[30-Jul-2026 15:53:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[30-Jul-2026 15:53:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 15:53:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Jul-2026 23:46:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[31-Jul-2026 08:05:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[31-Jul-2026 08:06:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[31-Jul-2026 08:06:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[31-Jul-2026 08:18:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[31-Jul-2026 08:19:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[31-Jul-2026 08:19:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[01-Aug-2026 01:28:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[01-Aug-2026 04:46:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[01-Aug-2026 07:18:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[01-Aug-2026 10:09:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[01-Aug-2026 11:34:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[02-Aug-2026 12:09:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[03-Aug-2026 14:02:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[03-Aug-2026 14:02:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[08-Aug-2026 00:15:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[08-Aug-2026 00:29:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[08-Aug-2026 04:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[08-Aug-2026 04:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[08-Aug-2026 04:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[08-Aug-2026 04:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[08-Aug-2026 04:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[08-Aug-2026 04:20:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[09-Aug-2026 14:11:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[10-Aug-2026 20:52:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[11-Aug-2026 00:29:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[11-Aug-2026 13:36:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[11-Aug-2026 21:25:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[12-Aug-2026 01:57:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[12-Aug-2026 03:12:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[12-Aug-2026 03:12:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[12-Aug-2026 03:12:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[12-Aug-2026 09:02:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[12-Aug-2026 10:49:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[14-Aug-2026 04:13:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[14-Aug-2026 11:41:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[15-Aug-2026 02:55:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[15-Aug-2026 02:55:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[15-Aug-2026 02:55:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[15-Aug-2026 02:55:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[15-Aug-2026 02:55:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[15-Aug-2026 02:55:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[15-Aug-2026 09:27:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[15-Aug-2026 09:27:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[15-Aug-2026 09:27:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Aug-2026 09:11:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Aug-2026 09:11:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Aug-2026 09:11:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[17-Aug-2026 11:32:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[17-Aug-2026 11:32:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[17-Aug-2026 11:32:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[18-Aug-2026 02:01:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[18-Aug-2026 06:31:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[18-Aug-2026 07:07:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[18-Aug-2026 08:11:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[18-Aug-2026 14:36:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[21-Aug-2026 02:27:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[21-Aug-2026 02:27:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[21-Aug-2026 02:27:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[21-Aug-2026 02:27:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[21-Aug-2026 02:27:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[21-Aug-2026 02:27:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[21-Aug-2026 18:34:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[21-Aug-2026 18:34:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[21-Aug-2026 18:34:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[21-Aug-2026 18:34:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[21-Aug-2026 18:34:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[21-Aug-2026 18:34:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[21-Aug-2026 23:54:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[22-Aug-2026 01:43:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[22-Aug-2026 02:58:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[22-Aug-2026 05:29:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[22-Aug-2026 09:41:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[22-Aug-2026 12:10:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[24-Aug-2026 23:15:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[25-Aug-2026 19:18:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[25-Aug-2026 23:29:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[26-Aug-2026 04:17:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[26-Aug-2026 08:24:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[27-Aug-2026 03:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[27-Aug-2026 03:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[27-Aug-2026 03:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[27-Aug-2026 03:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[27-Aug-2026 03:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[27-Aug-2026 03:58:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[29-Aug-2026 05:36:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[29-Aug-2026 05:36:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/api.php on line 17
+[29-Aug-2026 05:36:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/console.php on line 17
+[29-Aug-2026 05:36:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16
+[29-Aug-2026 05:36:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[29-Aug-2026 05:36:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Aug-2026 04:54:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php:23
+Stack trace:
+#0 /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/web.php(5): require()
+#1 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/public.php on line 23
+[30-Aug-2026 09:32:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/admin.php on line 29
+[30-Aug-2026 09:37:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Broadcast" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/routes/channels.php on line 16

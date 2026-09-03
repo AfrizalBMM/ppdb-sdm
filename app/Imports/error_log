@@ -1,0 +1,140 @@
+[16-Apr-2026 01:04:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[19-Apr-2026 21:46:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[21-Apr-2026 14:46:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[01-May-2026 21:54:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[04-May-2026 09:48:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[04-May-2026 15:46:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[04-May-2026 21:36:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[04-May-2026 21:37:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[05-May-2026 17:48:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[07-May-2026 00:52:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[10-May-2026 11:14:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[11-May-2026 12:59:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[12-May-2026 06:10:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[14-May-2026 17:13:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[17-May-2026 16:42:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[22-May-2026 22:56:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[23-May-2026 08:32:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[30-May-2026 23:39:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[03-Jun-2026 16:44:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[12-Jun-2026 23:37:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[15-Jun-2026 09:55:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[19-Jun-2026 03:44:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[19-Jun-2026 13:46:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[01-Jul-2026 07:58:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[13-Jul-2026 01:40:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[17-Jul-2026 03:19:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[20-Jul-2026 17:13:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[22-Jul-2026 08:06:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[22-Jul-2026 10:34:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[29-Jul-2026 10:15:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[01-Aug-2026 08:35:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[10-Aug-2026 03:31:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[14-Aug-2026 05:26:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[18-Aug-2026 22:18:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9
+[26-Aug-2026 08:07:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Interface "Maatwebsite\Excel\Concerns\ToModel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Imports/PaudTkImport.php on line 9

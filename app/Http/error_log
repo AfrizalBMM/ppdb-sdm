@@ -1,0 +1,148 @@
+[16-Apr-2026 06:44:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[26-Apr-2026 16:08:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[27-Apr-2026 06:13:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[27-Apr-2026 06:51:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[04-May-2026 15:44:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[04-May-2026 21:36:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[04-May-2026 21:36:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[06-May-2026 07:57:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[10-May-2026 02:21:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[10-May-2026 13:08:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[11-May-2026 14:52:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[17-May-2026 15:04:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-May-2026 00:34:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-May-2026 01:26:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-May-2026 14:08:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-May-2026 17:23:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-May-2026 23:18:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[30-May-2026 08:29:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[01-Jun-2026 09:30:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[01-Jun-2026 16:05:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[04-Jun-2026 09:22:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[15-Jun-2026 19:24:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[19-Jun-2026 05:38:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[25-Jun-2026 07:43:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[27-Jun-2026 05:47:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[13-Jul-2026 02:06:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[14-Jul-2026 23:25:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[20-Jul-2026 15:42:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[22-Jul-2026 09:55:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[24-Jul-2026 08:05:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[25-Jul-2026 09:52:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[10-Aug-2026 05:23:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[14-Aug-2026 03:51:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[18-Aug-2026 11:08:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[22-Aug-2026 04:59:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-Aug-2026 10:30:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7
+[29-Aug-2026 15:21:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Http/Kernel.php on line 7

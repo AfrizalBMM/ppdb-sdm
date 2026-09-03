@@ -1,0 +1,756 @@
+[08-Apr-2026 01:46:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 8
+[15-Apr-2026 21:11:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[15-Apr-2026 21:49:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[16-Apr-2026 03:35:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[16-Apr-2026 07:24:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[18-Apr-2026 18:10:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 8
+[26-Apr-2026 13:40:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 8
+[26-Apr-2026 13:40:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[26-Apr-2026 13:40:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[26-Apr-2026 13:40:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[26-Apr-2026 13:40:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[26-Apr-2026 22:58:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[27-Apr-2026 05:31:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[27-Apr-2026 09:39:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[27-Apr-2026 09:57:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[28-Apr-2026 08:16:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[28-Apr-2026 08:18:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[28-Apr-2026 08:18:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[28-Apr-2026 08:18:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 8
+[28-Apr-2026 08:18:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[30-Apr-2026 03:12:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[01-May-2026 07:31:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[01-May-2026 07:32:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[01-May-2026 07:32:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[01-May-2026 07:32:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[04-May-2026 13:43:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[04-May-2026 15:47:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[04-May-2026 15:47:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[04-May-2026 15:47:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[04-May-2026 15:47:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[05-May-2026 14:47:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[05-May-2026 21:43:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[05-May-2026 21:51:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[06-May-2026 01:21:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[06-May-2026 02:03:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[07-May-2026 07:34:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[09-May-2026 23:31:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[09-May-2026 23:32:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[09-May-2026 23:37:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[09-May-2026 23:37:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[09-May-2026 23:37:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[11-May-2026 02:59:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[11-May-2026 02:59:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[11-May-2026 03:02:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[11-May-2026 03:02:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[11-May-2026 03:02:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[11-May-2026 11:49:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[11-May-2026 11:49:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[11-May-2026 11:50:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[11-May-2026 11:51:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[11-May-2026 11:52:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[17-May-2026 09:33:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[17-May-2026 15:59:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[17-May-2026 16:54:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[17-May-2026 17:11:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[17-May-2026 19:57:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[28-May-2026 18:16:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[28-May-2026 19:55:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[28-May-2026 20:56:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[29-May-2026 00:41:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-May-2026 04:35:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[29-May-2026 07:38:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[29-May-2026 09:15:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-May-2026 12:37:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-May-2026 23:26:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[31-May-2026 07:31:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[31-May-2026 11:16:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[01-Jun-2026 17:29:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[01-Jun-2026 19:14:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[03-Jun-2026 07:28:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[03-Jun-2026 07:43:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[03-Jun-2026 09:48:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[03-Jun-2026 09:55:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[03-Jun-2026 11:09:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[03-Jun-2026 11:27:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[03-Jun-2026 13:22:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[03-Jun-2026 14:48:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[06-Jun-2026 01:40:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[06-Jun-2026 04:35:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[06-Jun-2026 11:46:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[06-Jun-2026 13:50:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[06-Jun-2026 14:32:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[06-Jun-2026 23:17:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[07-Jun-2026 23:57:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[09-Jun-2026 13:06:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[11-Jun-2026 02:21:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[11-Jun-2026 02:21:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[12-Jun-2026 12:06:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[12-Jun-2026 20:14:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[12-Jun-2026 20:14:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[12-Jun-2026 20:14:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[12-Jun-2026 20:14:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[12-Jun-2026 21:55:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[12-Jun-2026 21:55:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[12-Jun-2026 21:56:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[15-Jun-2026 09:19:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[15-Jun-2026 15:19:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[15-Jun-2026 15:29:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[15-Jun-2026 20:38:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[15-Jun-2026 22:08:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[18-Jun-2026 22:35:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[18-Jun-2026 22:36:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[18-Jun-2026 22:36:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[18-Jun-2026 22:36:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[18-Jun-2026 22:36:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[21-Jun-2026 13:45:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[21-Jun-2026 13:45:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[21-Jun-2026 13:45:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[21-Jun-2026 13:45:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[27-Jun-2026 06:36:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[27-Jun-2026 11:01:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[27-Jun-2026 11:29:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[01-Jul-2026 00:17:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[01-Jul-2026 05:15:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[01-Jul-2026 07:49:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[01-Jul-2026 10:02:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[01-Jul-2026 12:09:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[13-Jul-2026 02:30:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[13-Jul-2026 02:38:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[13-Jul-2026 04:33:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[13-Jul-2026 10:46:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[13-Jul-2026 12:00:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[15-Jul-2026 08:02:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[15-Jul-2026 11:31:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[20-Jul-2026 16:05:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[20-Jul-2026 16:06:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[20-Jul-2026 16:07:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[20-Jul-2026 16:08:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[20-Jul-2026 16:09:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[22-Jul-2026 03:28:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[22-Jul-2026 03:28:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[22-Jul-2026 03:29:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[22-Jul-2026 03:29:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[22-Jul-2026 08:44:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[25-Jul-2026 06:09:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[25-Jul-2026 10:53:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[25-Jul-2026 13:11:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[29-Jul-2026 00:46:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[29-Jul-2026 04:41:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-Jul-2026 08:09:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[29-Jul-2026 09:59:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[29-Jul-2026 10:36:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[10-Aug-2026 05:15:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[10-Aug-2026 06:03:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[10-Aug-2026 09:06:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[10-Aug-2026 09:47:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[10-Aug-2026 10:21:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[12-Aug-2026 16:20:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[12-Aug-2026 19:14:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[13-Aug-2026 02:38:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[13-Aug-2026 16:39:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[13-Aug-2026 21:40:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[14-Aug-2026 00:04:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[14-Aug-2026 04:41:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[14-Aug-2026 05:20:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[14-Aug-2026 10:27:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[14-Aug-2026 17:38:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[15-Aug-2026 23:59:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[17-Aug-2026 18:56:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[17-Aug-2026 22:23:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[18-Aug-2026 06:04:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[18-Aug-2026 08:27:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[18-Aug-2026 08:27:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[18-Aug-2026 08:27:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[18-Aug-2026 13:50:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[18-Aug-2026 17:50:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[18-Aug-2026 21:29:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[18-Aug-2026 22:58:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[18-Aug-2026 23:55:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[19-Aug-2026 16:16:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[19-Aug-2026 20:47:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[22-Aug-2026 04:22:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[22-Aug-2026 09:06:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[22-Aug-2026 10:11:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[24-Aug-2026 23:26:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[24-Aug-2026 23:26:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[24-Aug-2026 23:26:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[25-Aug-2026 22:30:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\EventServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/EventServiceProvider.php on line 10
+[25-Aug-2026 23:39:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[26-Aug-2026 06:20:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[26-Aug-2026 07:52:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[26-Aug-2026 09:21:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-Aug-2026 10:08:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[29-Aug-2026 10:08:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10
+[29-Aug-2026 10:08:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-Aug-2026 17:12:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\RouteServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/RouteServiceProvider.php on line 11
+[29-Aug-2026 17:12:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/BroadcastServiceProvider.php on line 8
+[29-Aug-2026 17:13:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Support\Providers\AuthServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AuthServiceProvider.php on line 8
+[29-Aug-2026 17:13:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/app/Providers/AppServiceProvider.php on line 10

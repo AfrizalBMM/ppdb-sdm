@@ -1,0 +1,195 @@
+[11-Apr-2026 12:54:43 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[11-Apr-2026 12:54:43 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[11-Apr-2026 15:31:51 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[11-Apr-2026 15:31:51 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[16-Apr-2026 04:17:39 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[16-Apr-2026 04:17:39 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[19-Apr-2026 18:43:20 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[19-Apr-2026 18:43:20 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[27-Apr-2026 03:37:27 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[27-Apr-2026 03:37:27 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[27-Apr-2026 05:31:35 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[27-Apr-2026 05:31:35 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[28-Apr-2026 03:03:19 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[28-Apr-2026 03:03:19 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[29-Apr-2026 22:46:37 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[29-Apr-2026 22:46:37 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Apr-2026 08:03:14 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Apr-2026 08:03:14 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[04-May-2026 09:24:03 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[04-May-2026 09:24:03 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[04-May-2026 09:27:36 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[04-May-2026 09:27:36 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[08-May-2026 20:48:08 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[08-May-2026 20:48:08 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[09-May-2026 16:36:32 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[09-May-2026 16:36:32 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[10-May-2026 16:04:22 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[10-May-2026 16:04:22 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[14-May-2026 11:14:00 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[14-May-2026 11:14:00 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[14-May-2026 11:14:02 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[14-May-2026 11:14:02 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[14-May-2026 11:14:02 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[14-May-2026 11:14:02 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[14-May-2026 11:14:05 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[14-May-2026 11:14:05 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[15-May-2026 07:04:21 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[15-May-2026 07:04:21 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[20-May-2026 22:59:49 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[20-May-2026 22:59:49 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[23-May-2026 01:56:29 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[23-May-2026 01:56:29 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[10-Jun-2026 22:56:14 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[10-Jun-2026 22:56:14 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[12-Jun-2026 18:02:11 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[12-Jun-2026 18:02:11 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[12-Jun-2026 19:25:09 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[12-Jun-2026 19:25:09 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[15-Jun-2026 14:19:28 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[15-Jun-2026 14:19:28 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[18-Jun-2026 17:03:08 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[18-Jun-2026 17:03:08 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[22-Jun-2026 15:36:14 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[22-Jun-2026 15:36:14 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[23-Jun-2026 07:55:58 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[23-Jun-2026 07:55:58 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[23-Jun-2026 09:16:01 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[23-Jun-2026 09:16:01 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[01-Jul-2026 22:52:55 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[01-Jul-2026 22:52:55 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[04-Jul-2026 04:38:41 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[04-Jul-2026 04:38:41 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[11-Jul-2026 03:45:49 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[11-Jul-2026 03:45:49 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[12-Jul-2026 02:24:29 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[12-Jul-2026 02:24:29 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[14-Jul-2026 19:35:06 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[14-Jul-2026 19:35:06 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[20-Jul-2026 22:13:21 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[20-Jul-2026 22:13:21 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[21-Jul-2026 22:30:02 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[21-Jul-2026 22:30:02 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[22-Jul-2026 05:54:05 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[22-Jul-2026 05:54:05 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[22-Jul-2026 22:53:15 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[22-Jul-2026 22:53:15 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[23-Jul-2026 10:47:53 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[23-Jul-2026 10:47:53 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[24-Jul-2026 08:04:47 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[24-Jul-2026 08:04:47 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[29-Jul-2026 07:12:37 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[29-Jul-2026 07:12:37 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Jul-2026 00:03:54 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Jul-2026 00:03:54 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Jul-2026 15:53:40 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Jul-2026 15:53:40 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Jul-2026 15:53:42 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Jul-2026 15:53:42 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Jul-2026 15:53:43 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Jul-2026 15:53:43 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Jul-2026 15:53:44 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Jul-2026 15:53:44 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[30-Jul-2026 17:21:26 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[30-Jul-2026 17:21:26 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[31-Jul-2026 08:38:56 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[31-Jul-2026 08:38:56 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[08-Aug-2026 00:06:06 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[08-Aug-2026 00:06:06 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[08-Aug-2026 04:20:12 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[08-Aug-2026 04:20:12 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[10-Aug-2026 16:15:47 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[10-Aug-2026 16:15:47 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[12-Aug-2026 22:53:01 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[12-Aug-2026 22:53:01 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[14-Aug-2026 05:35:58 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[14-Aug-2026 05:35:58 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[15-Aug-2026 02:54:42 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[15-Aug-2026 02:54:42 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[21-Aug-2026 02:26:45 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[21-Aug-2026 02:26:45 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[21-Aug-2026 18:33:52 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[21-Aug-2026 18:33:52 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[22-Aug-2026 00:55:47 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[22-Aug-2026 00:55:47 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[22-Aug-2026 02:31:13 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[22-Aug-2026 02:31:13 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[24-Aug-2026 23:08:10 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[24-Aug-2026 23:08:10 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[25-Aug-2026 22:39:40 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[25-Aug-2026 22:39:40 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[27-Aug-2026 03:58:07 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[27-Aug-2026 03:58:07 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[29-Aug-2026 05:36:10 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[29-Aug-2026 05:36:10 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[29-Aug-2026 09:40:50 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[29-Aug-2026 09:40:50 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[29-Aug-2026 12:42:54 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[29-Aug-2026 12:42:54 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
+[29-Aug-2026 19:53:02 Asia/Jakarta] PHP Warning:  file_get_contents(https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyCpLMQMW6qnwNr8om8_YF1qIa-lkTJqexc): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 4
+[29-Aug-2026 19:53:02 Asia/Jakarta] PHP Warning:  file_put_contents(c:/xampp/htdocs/PPDB-SD-MUHAMMADIYAH/models_list.json): Failed to open stream: No such file or directory in /home/sdmk4757/public_html/ppdb.sdmuhwonorejo.com/list_models.php on line 5
