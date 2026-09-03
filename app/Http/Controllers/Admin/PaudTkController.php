@@ -12,6 +12,20 @@ class PaudTkController extends Controller
 {
     private const ALLOWED_JENIS = ['PAUD', 'TK', 'BA', 'RA'];
 
+    /**
+     * Parse nilai EMIS/DAPODIK dari sel Excel: angka 1/0, teks ya/tidak/true/false.
+     */
+    private static function parseEmisDapodik($value): bool
+    {
+        if (is_bool($value)) {
+            return $value;
+        }
+
+        $value = strtolower(trim((string) $value));
+
+        return in_array($value, ['1', 'ya', 'yes', 'true', 'v', 'x'], true);
+    }
+
     public function index(Request $request)
     {
         $perPage = (int) $request->input('per_page', 30);
@@ -40,12 +54,14 @@ class PaudTkController extends Controller
         ]);
 
         $data['aktif'] = $request->boolean('aktif');
+        $data['is_emis_dapodik'] = $request->boolean('is_emis_dapodik');
 
         $paud = PaudTk::create($data);
 
         logAktivitas(
             'Kelola PAUD/TK',
             'Menambahkan PAUD/TK baru: "'.$paud->nama.'" ('.$paud->jenis.')'
+            .($paud->is_emis_dapodik ? ' [EMIS/DAPODIK]' : '')
         );
 
         return back()->with('success', 'Data PAUD/TK berhasil disimpan!');
@@ -64,6 +80,21 @@ class PaudTkController extends Controller
         );
 
         return back();
+    }
+
+    public function toggleEmisDapodik(PaudTk $paudTk)
+    {
+        $paudTk->update([
+            'is_emis_dapodik' => !$paudTk->is_emis_dapodik
+        ]);
+
+        logAktivitas(
+            'Kelola PAUD/TK',
+            'Mengubah status EMIS/DAPODIK PAUD/TK #'.$paudTk->id.' "'.$paudTk->nama.'" menjadi '
+            .($paudTk->is_emis_dapodik ? 'terdaftar' : 'tidak terdaftar')
+        );
+
+        return back()->with('success', 'Status EMIS/DAPODIK "'.$paudTk->nama.'" berhasil diperbarui.');
     }
 
     public function destroy(PaudTk $paudTk)
@@ -99,6 +130,14 @@ class PaudTkController extends Controller
         $countInvalidJenis = 0;
         $invalidJenisSamples = [];
 
+        // Deteksi format file dari header:
+        // - Format baru (10 kolom): npsn..akreditasi, emis_dapodik (I), aktif (J)
+        // - Format lama  (9 kolom): npsn..akreditasi, aktif (I)
+        $header = array_map(fn ($h) => strtolower(trim((string) ($h ?? ''))), $rows[0] ?? []);
+        $hasEmisColumn = in_array('emis_dapodik', $header, true)
+            || in_array('emis/dapodik', $header, true)
+            || in_array('emis', $header, true);
+
         foreach ($rows as $index => $row) {
 
             // skip header
@@ -116,6 +155,16 @@ class PaudTkController extends Controller
                 continue;
             }
 
+            // Posisi kolom sesuai format file.
+            if ($hasEmisColumn) {
+                $emisValue = $row[8] ?? null;
+                $aktifValue = $row[9] ?? null;
+            } else {
+                // Format lama: kolom I = aktif, EMIS tidak ada (default false).
+                $emisValue = null;
+                $aktifValue = $row[8] ?? null;
+            }
+
             $paud = PaudTk::firstOrNew([
                 'nama'       => $row[1],
                 'kelurahan'  => $row[4] ?? null,
@@ -131,7 +180,10 @@ class PaudTkController extends Controller
             $paud->kecamatan  = $row[5] ?? null;
             $paud->telp       = $row[6] ?? null;
             $paud->akreditasi = $row[7] ?? null;
-            $paud->aktif      = isset($row[8]) ? (bool)$row[8] : true;
+            $paud->is_emis_dapodik = $hasEmisColumn
+                ? self::parseEmisDapodik($emisValue)
+                : ($isNew ? false : $paud->is_emis_dapodik); // file lama: pertahankan nilai existing
+            $paud->aktif      = $aktifValue === null ? true : (bool) $aktifValue;
 
             $paud->save();
 
@@ -159,13 +211,43 @@ class PaudTkController extends Controller
 
     public function template(): BinaryFileResponse
     {
-        $file = storage_path('app/template_paud_tk.xlsx');
+        // Generate template on-the-fly agar selalu sesuai format import terbaru.
+        $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+        $sheet = $spreadsheet->getActiveSheet();
+        $sheet->setTitle('PAUD_TK');
 
-        if (!file_exists($file)) {
-            abort(404, 'Template tidak ditemukan.');
+        $headers = ['npsn', 'nama', 'jenis', 'alamat', 'kelurahan', 'kecamatan', 'telp', 'akreditasi', 'emis_dapodik', 'aktif'];
+
+        $contoh = [
+            ['12345678', 'TK Harapan Bangsa', 'TK', 'Jl. Merdeka No 10', 'Banjarsari', 'Laweyan', '0271-123456', 'A', 1, 1],
+            ['87654321', 'PAUD Ceria Anak', 'PAUD', 'Jl. Mawar No 5', 'Manahan', 'Banjarsari', '0271-654321', 'B', 0, 1],
+            ['55667788', 'RA Pelita Hati', 'RA', 'Jl. Anggrek No 15', 'Pajang', 'Laweyan', '0271-777888', 'Belum', 1, 1],
+        ];
+
+        // Header styling
+        $sheet->fromArray($headers, null, 'A1');
+        $sheet->fromArray($contoh, null, 'A2');
+
+        $lastCol = $sheet->getHighestColumn();
+        $sheet->getStyle('A1:'.$lastCol.'1')->getFont()->setBold(true);
+        $sheet->getStyle('A1:'.$lastCol.'1')->getFill()
+            ->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)
+            ->getStartColor()->setARGB('FFE2E8F0');
+
+        foreach (range('A', $lastCol) as $col) {
+            $sheet->getColumnDimension($col)->setAutoSize(true);
         }
 
-        return response()->download($file, 'template-paud-tk.xlsx');
+        // Catatan format di bawah contoh
+        $sheet->setCellValue('A6', 'Catatan: jenis = PAUD/TK/BA/RA; emis_dapodik & aktif = 1 (ya) / 0 (tidak); baris contoh boleh dihapus.');
+
+        $writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+
+        $filename = 'template-paud-tk-'.now()->format('Ymd-His').'.xlsx';
+        $path = storage_path('app/'.$filename);
+        $writer->save($path);
+
+        return response()->download($path, 'template-paud-tk.xlsx')->deleteFileAfterSend();
     }
 
     public function destroyAll()

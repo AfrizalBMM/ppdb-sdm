@@ -47,9 +47,9 @@ class Voucher extends Model
     |--------------------------------------------------------------------------
     */
 
-    public function registrations()
+    public function tagihan()
     {
-        return $this->hasMany(Registration::class);
+        return $this->hasMany(TagihanSiswa::class);
     }
 
     /*
@@ -95,6 +95,15 @@ class Voucher extends Model
         }
 
         return $this->digunakan < $this->maks_penggunaan;
+    }
+
+    /**
+     * Voucher hangus: melewati tanggal selesai (tenggat klaim).
+     */
+    public function isHangus(): bool
+    {
+        return $this->tanggal_selesai
+            && now()->endOfDay()->gt($this->tanggal_selesai->endOfDay());
     }
 
     /*

@@ -12,11 +12,13 @@ class PasswordPanitiaController extends Controller
 {
     public function index()
     {
-        $tahunAjaran = TahunAjaran::where('aktif',1)->first();
+        $tahunAjaran = TahunAjaran::where('aktif', 1)->first();
 
-        $password = PasswordPanitia::where('tahun_ajaran_id', $tahunAjaran->id)->first();
+        $password = $tahunAjaran
+            ? PasswordPanitia::where('tahun_ajaran_id', $tahunAjaran->id)->first()
+            : null;
 
-        return view('admin.password_panitia', compact('password','tahunAjaran'));
+        return view('admin.password_panitia', compact('password', 'tahunAjaran'));
     }
 
     public function store(Request $request)
@@ -25,7 +27,11 @@ class PasswordPanitiaController extends Controller
             'password' => 'required|string|max:50'
         ]);
 
-        $tahunAjaran = TahunAjaran::where('aktif',1)->first();
+        $tahunAjaran = TahunAjaran::where('aktif', 1)->first();
+
+        if (!$tahunAjaran) {
+            return back()->with('error', 'Belum ada tahun ajaran aktif. Aktifkan tahun ajaran terlebih dahulu di menu Tahun Ajaran.');
+        }
 
         PasswordPanitia::updateOrCreate(
             ['tahun_ajaran_id' => $tahunAjaran->id],

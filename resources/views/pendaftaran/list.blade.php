@@ -151,7 +151,7 @@
                         x-cloak
                         x-transition
                         @click.away="open = false"
-                        class="absolute right-0 mt-2 w-full md:w-[360px] rounded-xl border border-slate-200 bg-white p-3 shadow-lg z-30"
+                        class="absolute right-0 mt-2 w-full md:w-[360px] rounded-xl border border-slate-200 bg-white p-3 shadow-lg z-dropdown"
                     >
                         <div class="space-y-3">
                             <div>
@@ -752,7 +752,7 @@
                                         x-transition:leave-end="transform opacity-0 scale-95"
                                         @click.outside="open = false"
                                         @keydown.escape.window="open = false"
-                                        class="fixed w-44 bg-white border border-border rounded-lg shadow-hover z-[120] py-1.5 overflow-hidden"
+                                        class="fixed w-44 bg-white border border-border rounded-lg shadow-hover z-dropdown py-1.5 overflow-hidden"
                                         :style="menuStyle()">
 
                                         <!-- CETAK -->
@@ -767,7 +767,7 @@
 
                                         <!-- DETAIL -->
                                         <a href="#"
-                                            onclick="event.preventDefault(); bukaPasswordModal('{{ route('pendaftaran.detail', $item->id) }}')"
+                                            @click.prevent="open = false; bukaPasswordModal('{{ route('pendaftaran.detail', $item->id) }}')"
                                             class="flex items-center gap-2.5 px-4 py-2 hover:bg-primary/5 hover:text-primary text-[11px] text-textPrimary transition-colors border-t border-gray-50">
                                             <svg class="w-4 h-4 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -778,7 +778,7 @@
 
                                         <!-- BIAYA -->
                                         <a href="#"
-                                            onclick="event.preventDefault(); bukaPasswordModal('{{ route('pendaftaran.biaya', $item) }}')"
+                                            @click.prevent="open = false; bukaPasswordModal('{{ route('pendaftaran.biaya', $item) }}')"
                                             class="flex items-center gap-2.5 px-4 py-2 hover:bg-primary/5 hover:text-primary text-[11px] text-textPrimary transition-colors border-t border-gray-50">
                                             <svg class="w-4 h-4 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
@@ -880,7 +880,7 @@
 </div>
 
 {{-- MODAL CETAK FORMULIR --}}
-<div id="modalPetugas" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-50 p-4 transition-all duration-300">
+<div id="modalPetugas" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-modal p-4 transition-all duration-300">
     <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-8 relative transform transition-all duration-300">
         <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4 text-2xl">
             🖨️
@@ -920,7 +920,7 @@
 
 <div id="modalPassword"
      onclick="closePasswordModal()"
-     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-50 p-4 transition-all duration-300">
+     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-modal p-4 transition-all duration-300">
 
     <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-8 relative transform transition-all duration-300" onclick="event.stopPropagation()">
 
@@ -975,7 +975,7 @@
 
 <div id="modalPasswordKeuangan"
      onclick="closePasswordKeuanganModal()"
-     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-50 p-4 transition-all duration-300">
+     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-modal p-4 transition-all duration-300">
 
     <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-8 relative transform transition-all duration-300" onclick="event.stopPropagation()">
 
@@ -1042,7 +1042,7 @@
 
 <div id="modalTerimaPeserta"
      onclick="closeTerimaPesertaModal()"
-     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-50 p-4 transition-all duration-300">
+     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-modal p-4 transition-all duration-300">
 
     <div class="w-full max-w-lg overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl transform transition-all" onclick="event.stopPropagation()">
         <div class="relative overflow-hidden border-b border-slate-100 bg-gradient-to-r from-emerald-50 via-white to-sky-50 px-8 py-6">
@@ -1125,7 +1125,7 @@
 
 <div id="modalTerimaPesertaSuccess"
      onclick="closeTerimaPesertaSuccessModal()"
-     class="fixed inset-0 bg-slate-900/55 backdrop-blur-[2px] hidden items-center justify-center z-50 p-4">
+     class="fixed inset-0 bg-slate-900/55 backdrop-blur-[2px] hidden items-center justify-center z-modal p-4">
 
     <div class="w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl" onclick="event.stopPropagation()">
         <div class="px-6 py-5">
@@ -1160,11 +1160,11 @@ let terimaPesertaNoRegistrasi = '-';
 
 function openModalPetugas(id) {
     document.getElementById('modalSiswaId').value = id;
-    document.getElementById('modalPetugas').classList.remove('hidden');
+    window.openModal('modalPetugas');
 }
 
 function closeModalPetugas() {
-    document.getElementById('modalPetugas').classList.add('hidden');
+    window.closeModal('modalPetugas');
 }
 
 function submitCetakFormulirList() {

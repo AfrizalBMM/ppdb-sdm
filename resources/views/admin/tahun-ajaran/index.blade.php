@@ -32,9 +32,26 @@
         </div>
     </div>
 
-    <div class="grid gap-6 lg:grid-cols-5">
+    <div class="grid gap-6">
 
-        <div class="card p-0 overflow-hidden lg:col-span-3">
+        {{-- TOMBOL TAMBAH (form tambah dipindah ke modal) --}}
+        <div class="card">
+            <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h2 class="text-base font-semibold text-slate-800">Data Tahun Ajaran</h2>
+                    <p class="mt-1 text-xs text-slate-500">Buat periode baru, lalu tentukan apakah langsung dijadikan aktif.</p>
+                </div>
+
+                <div class="flex flex-col gap-2 sm:flex-row md:flex-row md:items-center">
+                    <button onclick="openModal('modalTambahTahun')"
+                        class="rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
+                        + Tambah Tahun Ajaran
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-0 overflow-hidden">
             <div class="border-b border-slate-200 px-5 py-4">
                 <h2 class="text-base font-semibold text-slate-800">Daftar Tahun Ajaran</h2>
                 <p class="mt-1 text-xs text-slate-500">Aktifkan satu periode tahun ajaran sebagai acuan utama sistem.</p>
@@ -127,15 +144,29 @@
             </div>
         </div>
 
-        <div class="card lg:col-span-2">
-            <h2 class="text-base font-semibold text-slate-800">Tambah Tahun Ajaran</h2>
-            <p class="mt-1 text-xs text-slate-500">Buat periode baru, lalu tentukan apakah langsung dijadikan aktif.</p>
+    </div>
 
-            <form method="POST" action="{{ route('tahun-ajaran.store') }}" class="mt-5 flex flex-col gap-4">
+    {{-- MODAL TAMBAH TAHUN AJARAN --}}
+    <div id="modalTambahTahun" class="fixed inset-0 z-[300] hidden items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm transition-all duration-300">
+        <div class="w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl transform transition-all duration-300 sm:p-8">
+            <div class="mb-6 flex items-start justify-between gap-3">
+                <div>
+                    <h3 class="text-xl font-bold text-slate-800">Tambah Tahun Ajaran</h3>
+                    <p class="mt-1 text-xs text-slate-500">Buat periode baru, lalu tentukan apakah langsung dijadikan aktif.</p>
+                </div>
+                <button type="button" onclick="closeModal('modalTambahTahun')"
+                    class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <form method="POST" action="{{ route('tahun-ajaran.store') }}" class="flex flex-col gap-4">
                 @csrf
 
                 <div>
-                    <label class="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-slate-500">Nama Tahun Ajaran</label>
+                    <label class="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-slate-500">Nama Tahun Ajaran <span class="text-red-500">*</span></label>
                     <input type="text" name="nama" placeholder="2025/2026" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-700 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100" required>
                     <p class="text-xs text-slate-500 mt-1">
                         Contoh: <span class="font-medium">2025/2026</span>
@@ -152,18 +183,22 @@
                     </label>
                 </div>
 
-                <div>
-                    <button type="submit" class="w-full rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700">
+                <div class="rounded-xl border border-blue-200 bg-blue-50 p-3 text-xs text-blue-700">
+                    Tips: hanya satu tahun ajaran yang boleh aktif pada satu waktu. Saat memilih aktif, sistem akan menonaktifkan periode aktif sebelumnya.
+                </div>
+
+                <div class="flex justify-end gap-3 border-t border-slate-200 pt-4">
+                    <button type="button" onclick="closeModal('modalTambahTahun')"
+                        class="rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
+                        Batal
+                    </button>
+                    <button type="submit"
+                        class="rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-blue-500/30 hover:bg-blue-700 transition-all">
                         Simpan
                     </button>
                 </div>
             </form>
-
-            <div class="mt-5 rounded-xl border border-blue-200 bg-blue-50 p-3 text-xs text-blue-700">
-                Tips: hanya satu tahun ajaran yang boleh aktif pada satu waktu. Saat memilih aktif, sistem akan menonaktifkan periode aktif sebelumnya.
-            </div>
         </div>
-
     </div>
 
 </div>

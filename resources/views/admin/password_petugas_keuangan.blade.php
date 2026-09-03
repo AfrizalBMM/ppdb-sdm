@@ -100,7 +100,7 @@
 </div>
 
 <div id="modalEditPetugas"
-    class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-50 p-4 transition-all duration-300"
+    class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-modal p-4 transition-all duration-300"
     onclick="if(event.target===this)closeEditPetugasModal()">
     <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-8 relative transform transition-all duration-300"
         onclick="event.stopPropagation()">

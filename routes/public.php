@@ -12,6 +12,7 @@ use App\Http\Controllers\Public\NisnPublicController;
 use App\Livewire\PendaftaranWizard;
 use App\Models\Siswa;
 use App\Http\Controllers\Public\PembayaranController as PublicPembayaranController;
+use App\Http\Controllers\VoucherKlaimController;
 
 /*
 |--------------------------------------------------------------------------
@@ -108,6 +109,13 @@ Route::get('/pendaftaran/{siswa}/edit', PendaftaranWizard::class)
     Route::post('/pendaftaran/{siswa}/biaya/nota-rincian',
         [\App\Http\Controllers\Public\PembayaranController::class, 'notaRincianBiaya']
     )->name('pendaftaran.biaya.nota.post');
+
+    // Klaim / batalkan voucher pada rincian biaya (oleh panitia)
+    Route::post('/pendaftaran/{siswa}/voucher/klaim', [VoucherKlaimController::class, 'klaim'])
+        ->name('pendaftaran.voucher.klaim');
+
+    Route::post('/pendaftaran/{siswa}/voucher/batal', [VoucherKlaimController::class, 'batal'])
+        ->name('pendaftaran.voucher.batal');
 
 });
 

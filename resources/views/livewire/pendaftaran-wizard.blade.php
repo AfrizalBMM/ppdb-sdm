@@ -1,8 +1,8 @@
-<div class="max-w-6xl mx-auto px-6 pb-10">
+<form wire:submit.prevent="prepareSubmit" class="max-w-6xl mx-auto px-6 pb-10 space-y-8">
 
     @if ($showValidationModal && $errors->any())
         <div x-data="{ open: @entangle('showValidationModal') }" x-show="open" x-transition x-cloak
-            class="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+            class="fixed inset-0 bg-black/50 flex items-center justify-center z-modal">
             <div class="bg-white rounded-xl shadow-lg max-w-md w-full p-6">
                 <h2 class="text-lg font-semibold text-red-600 mb-3">Data Pendaftaran Belum Lengkap</h2>
 
@@ -27,9 +27,7 @@
     @endif
 
 
-    <form wire:submit.prevent="prepareSubmit" class="space-y-8">
-
-        {{-- HEADER --}}
+    {{-- HEADER --}}
         <div class="text-center mb-6">
             <h1 class="text-2xl font-bold text-slate-800">
                 {{ $isEditMode ? 'Formulir Edit Data Pendaftar' : 'Formulir Pendaftaran Calon Peserta Didik' }}
@@ -43,7 +41,7 @@
         <div class="card relative z-40">
             <h2 class="font-heading font-bold text-lg text-primary mb-5 border-b border-border pb-2">A. Data Umum</h2>
 
-            <div class="grid md:grid-cols-3 gap-5">
+            <div class="grid md:grid-cols-2 gap-5">
 
                 {{-- TANGGAL DAFTAR --}}
                 <div>
@@ -62,135 +60,8 @@
                 <div>
                     <label class="label">Tahun Ajaran</label>
                     {{-- Readonly, tidak perlu update ke server --}}
-                    <input type="text" value="{{ $tahun_ajaran_nama ?? 'belum ditentukan admin' }}" readonly
+                    <input type="text" value="{{ $tahun_ajaran_nama ?? 'belum ditentukan' }}" readonly
                         class="input bg-slate-100 cursor-not-allowed">
-                </div>
-
-                {{-- VOUCHER --}}
-                <div>
-                    <label class="label">Voucher</label>
-                    @php
-                        $selectedVoucher = $vouchers->firstWhere('id', (int) $voucher_id);
-                        $selectedLabel = $selectedVoucher
-                            ? trim(($selectedVoucher->kode ?? '') . ' — ' . ($selectedVoucher->nama ?? ''))
-                            : 'Pilih Voucher (Opsional)';
-                        $voucherCards = [
-                            ['accent' => 'border-emerald-200', 'bg' => 'bg-emerald-50', 'text' => 'text-emerald-700'],
-                            ['accent' => 'border-blue-200', 'bg' => 'bg-blue-50', 'text' => 'text-blue-700'],
-                            ['accent' => 'border-amber-200', 'bg' => 'bg-amber-50', 'text' => 'text-amber-700'],
-                            ['accent' => 'border-rose-200', 'bg' => 'bg-rose-50', 'text' => 'text-rose-700'],
-                            ['accent' => 'border-slate-200', 'bg' => 'bg-slate-50', 'text' => 'text-slate-700'],
-                        ];
-                    @endphp
-
-                    <div x-data="{ open: false }" class="relative z-50" @click.outside="open = false">
-                        <button type="button" @click="open = !open" @keydown.escape.window="open = false"
-                            class="input flex items-center justify-between gap-2 text-left @error('voucher_id') border-red-500 @enderror {{ $voucher_expired ? 'bg-slate-100 cursor-not-allowed' : '' }}"
-                            {{ $voucher_expired ? 'disabled' : '' }}>
-                            <span class="truncate">{{ $selectedLabel }}</span>
-                            <svg class="h-4 w-4 text-slate-400 transition-transform" :class="open ? 'rotate-180' : ''"
-                                viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                    d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.168l3.71-3.938a.75.75 0 1 1 1.08 1.04l-4.25 4.512a.75.75 0 0 1-1.08 0L5.21 8.27a.75.75 0 0 1 .02-1.06Z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-
-                        <div x-show="open" x-cloak x-transition
-                            class="absolute z-[999] mt-2 w-full rounded-2xl border border-slate-200 bg-white p-3 shadow-xl">
-                            @if($vouchers->count() === 0)
-                                <div class="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-500">
-                                    Voucher tidak tersedia.
-                                </div>
-                            @else
-                                <div class="max-h-64 overflow-y-auto space-y-2 pr-1">
-                                    <button type="button" @click="$wire.set('voucher_id', null); open = false"
-                                        class="w-full rounded-xl border border-dashed border-slate-200 bg-white px-4 py-3 text-left text-sm text-slate-500 hover:bg-slate-50">
-                                        Tanpa voucher
-                                    </button>
-
-                                    @foreach($vouchers as $index => $v)
-                                        @php
-                                            $cardStyle = $voucherCards[$index % count($voucherCards)];
-                                            $now = \Carbon\Carbon::now();
-                                            $startDate = $v->tanggal_mulai ? \Carbon\Carbon::parse($v->tanggal_mulai)->startOfDay() : null;
-                                            $endDate = $v->tanggal_selesai ? \Carbon\Carbon::parse($v->tanggal_selesai)->endOfDay() : null;
-                                            $quotaRemaining = is_null($v->maks_penggunaan)
-                                                ? null
-                                                : max(0, (int) $v->maks_penggunaan - (int) $v->digunakan);
-                                            $isPrelaunch = $startDate && $now->lt($startDate);
-                                            $isExpired = $endDate && $now->gt($endDate);
-                                            $isQuotaEmpty = !is_null($quotaRemaining) && $quotaRemaining <= 0;
-                                            $isActive = $v->aktif &&
-                                                !$isPrelaunch && !$isExpired && !$isQuotaEmpty;
-                                            $daysToStart = $isPrelaunch ? $now->startOfDay()->diffInDays($startDate) : null;
-                                            $statusBadgeText = $isPrelaunch
-                                                ? 'Berlaku ' . $daysToStart . ' hari lagi'
-                                                : ($isActive
-                                                    ? 'Voucher aktif'
-                                                    : ($isQuotaEmpty
-                                                        ? 'Kuota habis'
-                                                        : ($isExpired ? 'Periode habis' : 'Tidak aktif')));
-                                            $statusBadgeClass = $isQuotaEmpty
-                                                ? 'bg-red-100 text-red-700 border-red-200'
-                                                : ($isActive
-                                                    ? 'bg-emerald-100 text-emerald-700 border-emerald-200'
-                                                    : 'bg-slate-100 text-slate-600 border-slate-200');
-                                            $cardBgClass = $isQuotaEmpty
-                                                ? 'bg-red-50'
-                                                : ($isActive
-                                                    ? 'bg-emerald-50'
-                                                    : 'bg-slate-50');
-                                        @endphp
-                                        <button type="button" @click="$wire.set('voucher_id', {{ $v->id }}); open = false"
-                                            class="w-full rounded-2xl border {{ $cardStyle['accent'] }} {{ $cardBgClass }} px-4 py-3 text-left transition hover:shadow-md"
-                                            {{ $isActive ? '' : 'disabled' }}>
-                                            <div class="flex items-start justify-between gap-3">
-                                                <div>
-                                                    <p class="text-sm font-semibold text-slate-800">{{ $v->kode ?? '-' }}</p>
-                                                </div>
-                                                <span
-                                                    class="rounded-full border border-white/60 bg-white/70 px-2 py-0.5 text-[10px] font-semibold {{ $cardStyle['text'] }}">
-                                                    {{ ui_label($v->jenis_biaya ?? '-') }}
-                                                </span>
-                                            </div>
-                                            <div class="mt-2 flex items-center justify-between text-[11px]">
-                                                <span
-                                                    class="inline-flex items-center rounded-full border px-2 py-0.5 {{ $statusBadgeClass }}">
-                                                    {{ $statusBadgeText }}
-                                                </span>
-                                                @if($isActive)
-                                                    <span class="text-slate-500">
-                                                        Kuota: {{ is_null($quotaRemaining) ? 'Unlimited' : $quotaRemaining }}
-                                                    </span>
-                                                @endif
-                                            </div>
-                                            <div class="mt-2 flex items-center justify-between text-xs">
-                                                <span class="font-semibold text-slate-700">
-                                                    Potongan Rp
-                                                    {{ number_format((int) ($v->diskon_nominal ?? 0), 0, ',', '.') }}
-                                                </span>
-                                            </div>
-                                        </button>
-                                    @endforeach
-                                </div>
-                            @endif
-                        </div>
-                    </div>
-
-                    <input type="hidden" wire:model.blur="voucher_id">
-
-                    {{-- Info Diskon --}}
-                    @if($voucher_label)
-                        <div class="mt-2 p-3 rounded-lg
-                                    {{ $voucher_expired ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700' }}">
-                            <p class="text-sm font-medium">{{ $voucher_label }}</p>
-                        </div>
-                    @endif
-
-                    @error('voucher_id')
-                        <p class="text-red-600 text-xs mt-1">{{ $message }}</p>
-                    @enderror
                 </div>
 
             </div>
@@ -351,8 +222,13 @@
                     <input wire:model.blur="akta_no" class="input">
 
                     {{-- Modal Contoh Akta Lahir --}}
-                    <div x-show="showAktaModal" x-transition.opacity x-cloak @click.self="showAktaModal = false"
-                        class="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+                    {{-- x-teleport ke body: modal `fixed` tidak boleh berada di dalam .card
+                         yang punya hover:-translate-y-1 (transform), supaya tidak muncul di pojok.
+                         WAJIB memakai <template> â€” x-teleport pada <div> akan error dan
+                         memutus inisialisasi Alpine untuk seluruh elemen setelahnya. --}}
+                    <template x-teleport="body">
+                        <div x-show="showAktaModal" x-transition.opacity x-cloak @click.self="showAktaModal = false"
+                            class="fixed inset-0 z-modal flex items-center justify-center bg-black/50">
                         <div x-transition x-show="showAktaModal"
                             class="bg-white rounded-lg shadow-xl max-w-md w-full mx-4 overflow-hidden">
                             {{-- Header --}}
@@ -382,7 +258,8 @@
                                 </button>
                             </div>
                         </div>
-                    </div>
+                        </div>
+                    </template>
                 </div>
 
                 {{-- AGAMA --}}
@@ -401,7 +278,7 @@
                 {{-- BERKEBUTUHAN KHUSUS --}}
                 <div>
                     <label class="label">Berkebutuhan Khusus</label>
-                    <select wire:model.blur="berkebutuhan_khusus" class="input">
+                    <select wire:model.live="berkebutuhan_khusus" class="input">
                         <option value="Tidak">Tidak</option>
                         <option value="Ya">Ya</option>
                     </select>
@@ -410,7 +287,7 @@
                 @if($berkebutuhan_khusus === 'Ya')
                     <div>
                         <label class="label">Jenis Kebutuhan Khusus <span class="text-red-500">*</span></label>
-                        <select wire:model.blur="jenis_kebutuhan_khusus"
+                        <select wire:model.live="jenis_kebutuhan_khusus"
                             class="input @error('jenis_kebutuhan_khusus') border-red-500 @enderror">
                             <option value="">Pilih</option>
                             <option value="netra">Netra</option>
@@ -453,7 +330,7 @@
                 <div>
                     <label class="label">Tinggal Bersama <span class="text-red-500">*</span></label>
                     {{-- Live karena mempengaruhi rendering field wali --}}
-                    <select wire:model.blur="tinggal_bersama"
+                    <select wire:model.live="tinggal_bersama"
                         class="input @error('tinggal_bersama') border-red-500 @enderror">
                         <option value="">Pilih</option>
                         <option value="orang_tua">Orang Tua</option>
@@ -492,7 +369,7 @@
 
                     <div>
                         <label class="label">Hubungan dengan Peserta Didik <span class="text-red-500">*</span></label>
-                        <select wire:model.blur="wali_hubungan"
+                        <select wire:model.live="wali_hubungan"
                             class="input @error('wali_hubungan') border-red-500 @enderror">
                             <option value="">Pilih</option>
                             <option value="Kakek">Kakek</option>
@@ -539,7 +416,7 @@
 
                     <div>
                         <label class="label">Pekerjaan Wali</label>
-                        <select wire:model.blur="wali_pekerjaan"
+                        <select wire:model.live="wali_pekerjaan"
                             class="input @error('wali_pekerjaan') border-red-500 @enderror">
                             <option value="">Pilih</option>
                             <option>Tidak Bekerja</option>
@@ -989,7 +866,7 @@
                                 <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                             </span>
                             <p class="text-[11px] text-emerald-700 font-medium">
-                                ✨ Ditebak otomatis AI. Mohon pastikan kembali kesesuaiannya.
+                                âœ¨ Ditebak otomatis AI. Mohon pastikan kembali kesesuaiannya.
                             </p>
                         </div>
                     @else
@@ -1105,7 +982,7 @@
                 {{-- Pekerjaan Ibu --}}
                 <div>
                     <label class="label">Pekerjaan Ibu</label>
-                    <select wire:model.blur="ibu_pekerjaan"
+                    <select wire:model.live="ibu_pekerjaan"
                         class="input @error('ibu_pekerjaan') border-red-500 @enderror">
                         <option value="">Pilih</option>
                         <option>Tidak Bekerja</option>
@@ -1251,7 +1128,7 @@
                 {{-- Pekerjaan Ayah --}}
                 <div>
                     <label class="label">Pekerjaan Ayah</label>
-                    <select wire:model.blur="ayah_pekerjaan"
+                    <select wire:model.live="ayah_pekerjaan"
                         class="input @error('ayah_pekerjaan') border-red-500 @enderror">
                         <option value="">Pilih</option>
                         <option>Tidak Bekerja</option>
@@ -1335,7 +1212,7 @@
                 {{-- Apakah Layak mendapatkan PIP --}}
                 <div>
                     <label class="label">Apakah Peserta Layak Mendapatkan PIP</label>
-                    <select wire:model.blur="layak_pip" class="input">
+                    <select wire:model.live="layak_pip" class="input">
                         <option value="Tidak">Tidak</option>
                         <option value="Ya">Ya</option>
                     </select>
@@ -1425,7 +1302,7 @@
                 <div>
                     <label class="label">Anak ke berapa (berdasarkan KK)</label>
                     <input wire:model.blur="anak_ke" type="text" inputmode="numeric" maxlength="3" pattern="[0-9]*"
-                        min="1" max="999" placeholder=" 2" class="input @error('anak_ke') border-red-500 @enderror">
+                        min="1" max="999" placeholder="max 3 digit" class="input @error('anak_ke') border-red-500 @enderror">
                     @if($anak_ke !== null && $anak_ke !== '' && strlen((string) $anak_ke) > 3)
                         <p class="text-amber-600 text-xs mt-1">Anak ke berapa maksimal 3 digit.</p>
                     @elseif($anak_ke !== null && $anak_ke !== '' && !ctype_digit((string) $anak_ke))
@@ -1480,8 +1357,8 @@
                                     </svg>
                                 </button>
 
-                                <div x-show="open" x-transition @click.outside="open = false"
-                                    class="absolute z-30 mt-1 w-full rounded-lg border border-slate-200 bg-white shadow-lg">
+                                <div x-show="open" x-transition x-cloak @click.outside="open = false"
+                                    class="absolute z-dropdown mt-1 w-full rounded-lg border border-slate-200 bg-white shadow-lg">
                                     <div class="p-2 border-b border-slate-100">
                                         <input type="text" x-ref="searchInput" x-model.debounce.200ms="search"
                                             @keydown.enter.prevent placeholder="Cari nama TK" class="input w-full">
@@ -1616,7 +1493,7 @@
         {{-- Modal Konfirmasi Reset Draft --}}
         @if ($showResetDraftModal)
             <div x-data="{ open: @entangle('showResetDraftModal') }" x-show="open" x-transition.opacity x-cloak
-                class="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+                class="fixed inset-0 z-modal flex items-center justify-center bg-black/50">
                 <div x-transition x-show="open" class="bg-white rounded-xl shadow-lg p-6 w-full max-w-md mx-4">
                     <h3 class="text-lg font-semibold text-slate-800 mb-3">Reset Data</h3>
                     <p class="text-sm text-slate-600 mb-6">
@@ -1642,7 +1519,7 @@
         {{-- Modal Konfirmasi Pendaftaran --}}
         @if ($showConfirm)
             <div x-data="{ open: @entangle('showConfirm') }" x-show="open" x-transition.opacity x-cloak
-                class="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+                class="fixed inset-0 z-modal flex items-center justify-center bg-black/50">
                 <div x-transition x-show="open" class="bg-white rounded-xl shadow-lg p-6 w-full max-w-md mx-4">
                     <h3 class="text-lg font-semibold text-slate-800 mb-4">Konfirmasi Pendaftaran</h3>
                     <p class="text-sm text-slate-600 mb-6">
@@ -1692,7 +1569,7 @@
             }" x-cloak @ppdb-client-error.window="openClient($event.detail?.message)"
             class="relative">
             <div x-show="serverOpen || clientOpen" x-transition.opacity
-                class="fixed inset-0 bg-black/50 flex items-center justify-center z-50" @click.self="close()">
+                class="fixed inset-0 bg-black/50 flex items-center justify-center z-modal" @click.self="close()">
                 <div class="bg-white p-6 rounded shadow-lg max-w-md w-full">
                     <h2 class="text-lg font-semibold mb-4 text-red-600">Terjadi Kesalahan</h2>
 
@@ -2393,4 +2270,4 @@
 
 
     </form>
-</div>
+

@@ -25,61 +25,27 @@
         </div>
     </div>
 
-    <div class="grid gap-6 xl:grid-cols-5">
+    <div class="grid gap-6">
 
-        {{-- Form Tambah User --}}
-        <div class="card xl:col-span-2">
-            <h3 class="text-base font-semibold text-slate-800">Tambah User</h3>
-            <p class="mt-1 text-xs text-slate-500">Akun baru dibuat dengan password default sistem.</p>
-
-            <form id="createUserForm" method="POST" action="{{ route('users.store') }}" class="mt-5 grid gap-4">
-                @csrf
-
+        {{-- TOMBOL TAMBAH (form tambah dipindah ke modal) --}}
+        <div class="card">
+            <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                 <div>
-                    <label class="label">Nama</label>
-                    <input
-                        name="name"
-                        value="{{ old('name') }}"
-                        class="input"
-                        placeholder="Nama user">
+                    <h3 class="text-base font-semibold text-slate-800">Data User</h3>
+                    <p class="mt-1 text-xs text-slate-500">Akun baru dibuat dengan password default sistem.</p>
                 </div>
 
-                <div>
-                    <label class="label">Email</label>
-                    <input
-                        name="email"
-                        type="email"
-                        value="{{ old('email') }}"
-                        class="input"
-                        placeholder="Email user">
-                </div>
-
-                <div>
-                    <label class="label">Role</label>
-                    <select name="role" class="input">
-                        <option value="">Pilih Role</option>
-                        <option value="admin" @selected(old('role') === 'admin')>
-                            Admin
-                        </option>
-                        <option value="keuangan" @selected(old('role') === 'keuangan')>
-                            Keuangan
-                        </option>
-                    </select>
-                </div>
-
-                <div class="flex justify-end pt-1">
-                    <button 
-                        type="button"
-                        onclick="openModal('confirmUserModal')"
-                        class="rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700">
-                        Simpan
+                <div class="flex flex-col gap-2 sm:flex-row md:flex-row md:items-center">
+                    <button onclick="openModal('modalTambahUser')"
+                        class="rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
+                        + Tambah User
                     </button>
                 </div>
-            </form>
+            </div>
         </div>
 
         {{-- Daftar User --}}
-        <div class="card p-0 overflow-hidden xl:col-span-3">
+        <div class="card p-0 overflow-hidden">
             <div class="border-b border-slate-200 px-5 py-4">
                 <h3 class="text-base font-semibold text-slate-800">Daftar User</h3>
                 <p class="mt-1 text-xs text-slate-500">Daftar akun internal yang dapat mengakses panel admin.</p>
@@ -145,26 +111,74 @@
 
 </div>
 
-{{-- MODAL KONFIRMASI --}}
-<x-modal id="confirmUserModal" title="Konfirmasi Simpan">
-    <p>Yakin ingin menambahkan user baru?</p>
+{{-- MODAL TAMBAH USER --}}
+<div id="modalTambahUser" class="fixed inset-0 z-[300] hidden items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm transition-all duration-300">
+    <div class="w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl transform transition-all duration-300 sm:p-8">
+        <div class="mb-6 flex items-start justify-between gap-3">
+            <div>
+                <h3 class="text-xl font-bold text-slate-800">Tambah User</h3>
+                <p class="mt-1 text-xs text-slate-500">Akun baru dibuat dengan password default sistem.</p>
+            </div>
+            <button type="button" onclick="closeModal('modalTambahUser')"
+                class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
 
-    <div class="flex justify-end gap-2 mt-4">
-        <button 
-            type="button"
-            onclick="closeModal('confirmUserModal')" 
-            class="btn-secondary">
-            Batal
-        </button>
+        <form id="createUserForm" method="POST" action="{{ route('users.store') }}" class="grid gap-4">
+            @csrf
 
-        <button 
-            type="button"
-            onclick="document.getElementById('createUserForm').submit()" 
-            class="btn-primary">
-            Ya, Simpan
-        </button>
+            <div>
+                <label class="label">Nama <span class="text-red-500">*</span></label>
+                <input
+                    name="name"
+                    value="{{ old('name') }}"
+                    class="input"
+                    placeholder="Nama user"
+                    required>
+                @error('name') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
+            </div>
+
+            <div>
+                <label class="label">Email <span class="text-red-500">*</span></label>
+                <input
+                    name="email"
+                    type="email"
+                    value="{{ old('email') }}"
+                    class="input"
+                    placeholder="Email user"
+                    required>
+                @error('email') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
+            </div>
+
+            <div>
+                <label class="label">Role <span class="text-red-500">*</span></label>
+                <select name="role" class="input" required>
+                    <option value="">Pilih Role</option>
+                    <option value="admin" @selected(old('role') === 'admin')>
+                        Admin
+                    </option>
+                    <option value="keuangan" @selected(old('role') === 'keuangan')>
+                        Keuangan
+                    </option>
+                </select>
+                @error('role') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
+            </div>
+
+            <div class="flex justify-end gap-3 border-t border-slate-200 pt-4">
+                <button type="button" onclick="closeModal('modalTambahUser')"
+                    class="rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
+                    Batal
+                </button>
+                <button type="submit"
+                    class="rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-blue-500/30 hover:bg-blue-700 transition-all">
+                    Simpan
+                </button>
+            </div>
+        </form>
     </div>
-</x-modal>
-
+</div>
 
 @endsection

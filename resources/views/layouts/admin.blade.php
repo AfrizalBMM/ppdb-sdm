@@ -114,7 +114,7 @@
                                 <span>Ganti Password</span>
                             </a>
 
-                            <button onclick="openModal('logoutModal')" class="w-full flex items-center space-x-2 px-4 py-2 text-sm text-danger hover:bg-red-50 transition-colors">
+                            <button @click="open = false; openModal('logoutModal')" class="w-full flex items-center space-x-2 px-4 py-2 text-sm text-danger hover:bg-red-50 transition-colors">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
                                 </svg>
@@ -154,7 +154,7 @@
     </div>
 
     <div id="globalToast"
-        class="fixed bottom-4 right-4 z-[200] hidden min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 translate-y-3 opacity-0"
+        class="fixed bottom-4 right-4 z-toast hidden min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 translate-y-3 opacity-0"
         role="status"
         aria-live="polite">
         <div class="flex items-start gap-3">
@@ -189,7 +189,7 @@
     </div>
 
     {{-- MODAL LOGOUT --}}
-    <div id="logoutModal" class="fixed inset-0 bg-slate-900/60 hidden flex items-center justify-center z-[300] p-4 backdrop-blur-sm transition-all duration-300">
+    <div id="logoutModal" class="fixed inset-0 bg-slate-900/60 hidden items-center justify-center z-[300] p-4 backdrop-blur-sm transition-all duration-300">
         <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-8 relative transform transition-all duration-300">
             <div class="w-16 h-16 bg-red-50 text-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -257,10 +257,6 @@
             el.classList.remove('flex');
         }
 
-        function closeDeleteModal() {
-            document.getElementById('deleteModal').classList.add('hidden');
-        }
-
         function updateSidebarCollapseButton(isCollapsed) {
             const btn = document.getElementById('sidebarCollapseBtn');
             const icon = document.getElementById('sidebarCollapseBtnIcon');
@@ -296,25 +292,8 @@
             });
         });
 
-        function openModal(id) {
-            const modal = document.getElementById(id);
-            if (modal) {
-                modal.classList.remove('hidden');
-                modal.classList.add('flex');
-                modal.style.display = 'flex';
-                document.body.style.overflow = 'hidden';
-            }
-        }
-
-        function closeModal(id) {
-            const modal = document.getElementById(id);
-            if (modal) {
-                modal.classList.add('hidden');
-                modal.classList.remove('flex');
-                modal.style.display = '';
-                document.body.style.overflow = '';
-            }
-        }
+        // openModal/closeModal global didefinisikan SATU KALI di resources/js/app.js.
+        // Jangan definisikan ulang di sini (pernah menyebabkan modal tampil di pojok).
 
         document.addEventListener("DOMContentLoaded", function() {
 
@@ -397,7 +376,7 @@
             const showToast = (type = 'info', text = '', options = {}) => {
                 const theme = themes[type] || themes.info;
 
-                box.className = 'fixed bottom-4 right-4 z-[200] min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 ' + theme.className;
+                box.className = 'fixed bottom-4 right-4 z-toast min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 ' + theme.className;
                 icon.innerHTML = theme.icon;
                 title.textContent = options.title || theme.title;
                 message.textContent = text || '';

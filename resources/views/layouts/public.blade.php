@@ -151,7 +151,7 @@
 </footer>
 
 <div id="globalToast"
-     class="fixed bottom-4 right-4 z-[200] hidden min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 translate-y-3 opacity-0"
+     class="fixed bottom-4 right-4 z-toast hidden min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 translate-y-3 opacity-0"
      role="status"
      aria-live="polite">
     <div class="flex items-start gap-3">
@@ -234,7 +234,7 @@
     const showToast = (type = 'info', text = '', options = {}) => {
         const theme = themes[type] || themes.info;
 
-        box.className = 'fixed bottom-4 right-4 z-[200] min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 ' + theme.className;
+        box.className = 'fixed bottom-4 right-4 z-toast min-w-[260px] max-w-sm overflow-hidden rounded-xl border px-4 py-3 shadow-2xl transition-all duration-200 ' + theme.className;
         icon.innerHTML = theme.icon;
         title.textContent = options.title || theme.title;
         message.textContent = text || '';
@@ -309,17 +309,33 @@
     };
 })();
 
+// ---- Menu mobile (<details>) ----
+// Tutup menu saat klik di luar, supaya tidak mengambang terbuka.
+document.addEventListener('click', (event) => {
+    document.querySelectorAll('details[open]').forEach((detailsEl) => {
+        if (!detailsEl.contains(event.target)) {
+            detailsEl.removeAttribute('open');
+        }
+    });
+});
+
 // ---- Modal Password Panitia Header Logic ----
 const userHasAksesPembayaran = @if(session('akses_pembayaran')) true @else false @endif;
 
 function handleHeaderListAccess(event, url) {
     if (event) event.preventDefault();
-    
+
+    // Selalu tutup menu mobile (<details>) sebelum navigasi/buka modal,
+    // supaya dropdown tidak tetap terbuka di atas modal.
+    document.querySelectorAll('details[open]').forEach((detailsEl) => {
+        detailsEl.removeAttribute('open');
+    });
+
     if (userHasAksesPembayaran) {
         window.location.href = url;
         return;
     }
-    
+
     bukaPasswordModalPublic(url);
 }
 
@@ -333,6 +349,7 @@ function bukaPasswordModalPublic(redirectUrl) {
     if (modal) {
         modal.classList.remove('hidden');
         modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
         if (input) {
             setTimeout(() => input.focus(), 50);
         }
@@ -344,6 +361,7 @@ function tutupPasswordModalPublic() {
     if (modal) {
         modal.classList.add('hidden');
         modal.classList.remove('flex');
+        document.body.style.overflow = '';
     }
 }
 

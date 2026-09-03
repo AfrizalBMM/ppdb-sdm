@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Siswa;
 use App\Models\TagihanSiswa;
+use App\Services\VoucherClaimService;
 use Illuminate\Http\Request;
 
 class KeuanganController extends Controller{
@@ -14,10 +15,14 @@ class KeuanganController extends Controller{
         $siswa->load([
             'tagihan.biaya',
             'tagihan.pembayaran',
+            'tagihan.voucher',
             'kelasSiswa',
         ]);
         $semuaPembayaran = $siswa->semuaPembayaran()->with('tagihan.biaya')->orderByDesc('tanggal_bayar')->get();
-        return view('admin.keuangan.detail', compact('siswa', 'semuaPembayaran'));
+        $eligibleVouchers = app(VoucherClaimService::class)->getEligibleVouchers($siswa);
+        $claimedTagihan = $siswa->tagihan->firstWhere('voucher_id');
+
+        return view('admin.keuangan.detail', compact('siswa', 'semuaPembayaran', 'eligibleVouchers', 'claimedTagihan'));
     }
 
     public function index(Request $request)

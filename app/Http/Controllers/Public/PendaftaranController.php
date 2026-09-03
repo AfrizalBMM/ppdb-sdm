@@ -10,6 +10,7 @@ use App\Models\Registration;
 use App\Models\Siswa;
 use App\Models\TahunAjaran;
 use App\Models\Voucher;
+use App\Services\VoucherClaimService;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Database\QueryException;
@@ -604,10 +605,14 @@ class PendaftaranController extends Controller
     public function showBiaya(Siswa $siswa)
     {
         $siswa->load([
-            'registration.voucher',
+            'registration',
             'ibu',
-            'tagihan.biaya'
+            'tagihan.biaya',
+            'tagihan.voucher',
         ]);
+
+        $eligibleVouchers = app(VoucherClaimService::class)->getEligibleVouchers($siswa);
+        $claimedTagihan = $siswa->tagihan->firstWhere('voucher_id');
 
         logAktivitas(
             'Panitia Public - Lihat Pembiayaan',
@@ -616,7 +621,7 @@ class PendaftaranController extends Controller
             . ', No Registrasi: ' . ($siswa->registration->nomor_registrasi ?? '-') . ').'
         );
 
-        return view('pendaftaran.pembiayaan.biaya', compact('siswa'));
+        return view('pendaftaran.pembiayaan.biaya', compact('siswa', 'eligibleVouchers', 'claimedTagihan'));
     }
 
 }

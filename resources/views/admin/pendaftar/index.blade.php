@@ -254,7 +254,7 @@
                                             @click.away="open = false"
                                             @keydown.escape.window="open = false"
                                             x-ref="actionMenu"
-                                            class="fixed w-52 rounded-xl border border-slate-200 bg-white p-2 shadow-xl z-[200]"
+                                            class="fixed w-52 rounded-xl border border-slate-200 bg-white p-2 shadow-xl z-dropdown"
                                             :style="`top: ${menuTop}px; left: ${menuLeft}px;`"
                                             x-cloak
                                         >
@@ -296,7 +296,7 @@
                                         </a>
 
                                         @if($status !== \App\Models\Registration::STATUS_PESERTA_DIDIK)
-                                            <form method="POST" action="{{ route('pendaftar.jadikan-peserta-didik', $s->id) }}" class="mt-1" onsubmit="return window.globalConfirmSubmit(this, 'Jadikan data ini sebagai Peserta Didik?', { title: 'Konfirmasi Status' })">
+                                            <form method="POST" action="{{ route('pendaftar.jadikan-peserta-didik', $s->id) }}" class="mt-1" @submit="open = false" onsubmit="return window.globalConfirmSubmit(this, 'Jadikan data ini sebagai Peserta Didik?', { title: 'Konfirmasi Status' })">
                                                 @csrf
                                                 <button type="submit" class="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-left text-xs font-medium text-emerald-700 hover:bg-emerald-50">
                                                     <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -410,7 +410,7 @@
         x-cloak
         @click.self="openQuickEdit = false"
         @keydown.escape.window="openQuickEdit = false"
-        class="fixed inset-0 z-[230] flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm"
+                    class="fixed inset-0 z-modal flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm"
     >
         <div class="w-full max-w-lg rounded-xl bg-white p-5 shadow-2xl">
             <div class="mb-4 flex items-center justify-between">

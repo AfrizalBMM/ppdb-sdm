@@ -17,12 +17,6 @@
                 Silakan lakukan pembayaran biaya pendaftaran.
             </div>
 
-            @if(session('voucher_warning'))
-                <div class="bg-amber-50 border border-amber-300 rounded-xl p-4 mb-4 text-sm text-amber-800 leading-relaxed">
-                    ⚠️ {{ session('voucher_warning') }}
-                </div>
-            @endif
-
             <div class="flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">
                 <p>
                     Data <span class="font-semibold text-slate-800" x-text="currentIndex + 1"></span>
@@ -208,8 +202,6 @@
                             <p class="text-slate-900 text-right">{{ number_format($t->nominal,0,',','.') }}</p>
                             <p class="text-slate-500">Diskon</p>
                             <p class="text-slate-900 text-right">{{ number_format($t->diskon,0,',','.') }}</p>
-                            <p class="text-slate-500">Nama Voucher</p>
-                            <p class="text-slate-900 text-right">{{ $t->kode_voucher ?? '-' }}</p>
                             <p class="text-slate-500">Sub Total</p>
                             <p class="font-semibold text-slate-900 text-right">{{ number_format($t->total,0,',','.') }}</p>
                         </div>
@@ -247,11 +239,13 @@
             </button>
         </div>
 
-        @include('pendaftaran.modal-cetak-formulir')
-
     </div>
 
 </div>
+
+{{-- Modal wajib di luar .card: .card punya hover:-translate-y-1 (transform)
+     yang membuat position:fixed di dalamnya terjebak di kartu (modal muncul di pojok). --}}
+@include('pendaftaran.modal-cetak-formulir')
 
 {{-- MODAL PASSWORD PANITIA --}}
 <div id="modalPassword"

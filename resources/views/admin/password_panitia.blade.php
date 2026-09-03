@@ -5,6 +5,26 @@
 @section('content')
 <div class="mx-auto max-w-5xl space-y-6">
 
+    @if(session('success'))
+        <div class="rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm font-medium text-emerald-800">
+            ✅ {{ session('success') }}
+        </div>
+    @endif
+
+    @if(session('error'))
+        <div class="rounded-xl border border-red-200 bg-red-50 p-4 text-sm font-medium text-red-800">
+            ⚠️ {{ session('error') }}
+        </div>
+    @endif
+
+    @if(!$tahunAjaran)
+        <div class="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm font-medium text-amber-800">
+            ⚠️ Belum ada tahun ajaran aktif. Aktifkan tahun ajaran terlebih dahulu di menu
+            <a href="{{ route('tahun-ajaran.index') }}" class="underline font-semibold">Tahun Ajaran</a>
+            agar password panitia dapat disimpan.
+        </div>
+    @endif
+
     <div class="rounded-2xl border border-slate-200 bg-gradient-to-r from-slate-50 via-white to-blue-50 p-5 shadow-sm">
         <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>

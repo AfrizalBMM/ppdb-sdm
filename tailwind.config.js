@@ -34,10 +34,17 @@ export default {
         'btn': '10px',
         'input': '10px',
         'badge': '8px',
+      },
+      // Skala z-index terpusat. Selalu pakai token ini, jangan nilai ad-hoc.
+      zIndex: {
+        'base': 0,
+        'raised': 20,      // elemen kecil di dalam kartu (popover mini, dsb.)
+        'sticky': 50,      // header sticky, sidebar, navbar
+        'dropdown': 100,   // dropdown / menu melayang (selalu di bawah modal)
+        'overlay': 200,    // overlay non-modal
+        'modal': 300,      // semua modal & dialog konfirmasi
+        'toast': 400,      // toast/notifikasi (selalu di atas modal)
       }
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
 }

@@ -36,7 +36,7 @@
 
 <iframe name="cetakFormulirFrameSukses" id="cetakFormulirFrameSukses" class="hidden"></iframe>
 
-<div id="toastCetakFormulirSukses" class="fixed bottom-4 right-4 z-[70] pointer-events-none opacity-0 translate-y-2 transition-all duration-200">
+<div id="toastCetakFormulirSukses" class="fixed bottom-4 right-4 z-toast pointer-events-none opacity-0 translate-y-2 transition-all duration-200">
     <div class="rounded-lg border border-green-200 bg-green-100/90 px-3 py-2 text-xs font-medium text-green-700 shadow-lg">
         Download formulir dimulai
     </div>
@@ -60,11 +60,13 @@ function showCetakFormulirSuksesToast() {
 
 function openModalPetugas(id){
     document.getElementById('modalSiswaId').value = id;
-    document.getElementById('modalPetugas').classList.remove('hidden');
+    // Pakai helper global (app.js): tambah `flex` + kunci scroll body,
+    // supaya modal selalu ter-center (tidak muncul di pojok).
+    window.openModal('modalPetugas');
 }
 
 function closeModalPetugas(){
-    document.getElementById('modalPetugas').classList.add('hidden');
+    window.closeModal('modalPetugas');
 }
 
 function submitCetakFormulirSukses(){

@@ -13,8 +13,6 @@ use App\Models\DataPendukung;
 use App\Models\Ayah;
 use App\Models\Ibu;
 use App\Models\Wali;
-use App\Models\Voucher;
-use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\QueryException;
@@ -22,7 +20,6 @@ use Illuminate\Validation\ValidationException;
 use App\Models\AlamatSiswa;
 
 use App\Services\GenerateTagihanService;
-use App\Services\VoucherAdjustmentService;
 
 class PendaftaranWizard extends Component
 {
@@ -48,10 +45,6 @@ class PendaftaranWizard extends Component
     public $kelas = 1;
     public $tahun_ajaran_id;
     public $tahun_ajaran_nama;
-    public $voucher_id;
-    public $voucher_diskon = 0;
-    public $voucher_label;
-    public $voucher_expired = false;
 
     // STEP B – SISWA
     public $nama_siswa;
@@ -165,7 +158,6 @@ class PendaftaranWizard extends Component
         }
 
         $this->loadDraft();
-        $this->syncVoucherState();
     }
 
     private function loadSiswaForEdit(Siswa $siswa): void
@@ -182,7 +174,6 @@ class PendaftaranWizard extends Component
             ?? now()->format('Y-m-d');
         $this->tahun_ajaran_id = $reg?->tahun_ajaran_id;
         $this->tahun_ajaran_nama = $reg?->tahunAjaran?->nama;
-        $this->voucher_id = $reg?->voucher_id;
 
         $this->nama_siswa = $siswa->nama;
         $this->jenis_kelamin = $siswa->jenis_kelamin;
@@ -273,7 +264,6 @@ class PendaftaranWizard extends Component
         $this->showConfirm = false;
         $this->showValidationModal = false;
         $this->errorsTriggered = false;
-        $this->syncVoucherState();
     }
 
     private function normalizeYesNo($value): string
@@ -552,10 +542,6 @@ class PendaftaranWizard extends Component
             'kelas',
             'tahun_ajaran_id',
             'tahun_ajaran_nama',
-            'voucher_id',
-            'voucher_diskon',
-            'voucher_label',
-            'voucher_expired',
             'nama_siswa',
             'jenis_kelamin',
             'nisn',
@@ -696,85 +682,6 @@ class PendaftaranWizard extends Component
         $this->wilayahPickerKey++;
 
         $this->applyInitialFormState();
-    }
-
-    public function updatedVoucherId($id)
-    {
-        $this->voucher_diskon = 0;
-        $this->voucher_label = null;
-        $this->voucher_expired = false;
-
-        if (!$id)
-            return;
-
-        $voucher = Voucher::find($id);
-        if (!$voucher) {
-            return;
-        }
-
-        $now = Carbon::now();
-        $startDate = $voucher->tanggal_mulai ? Carbon::parse($voucher->tanggal_mulai)->startOfDay() : null;
-        $endDate = $voucher->tanggal_selesai ? Carbon::parse($voucher->tanggal_selesai)->endOfDay() : null;
-        $quotaRemaining = is_null($voucher->maks_penggunaan)
-            ? null
-            : max(0, (int) $voucher->maks_penggunaan - (int) $voucher->digunakan);
-
-        if (!$voucher->aktif) {
-            $this->voucher_expired = true;
-            $this->voucher_label = 'Voucher belum aktif';
-            return;
-        }
-
-        if ($startDate && $now->lt($startDate)) {
-            $daysToStart = $now->startOfDay()->diffInDays($startDate);
-            $this->voucher_expired = true;
-            $this->voucher_label = 'Voucher berlaku ' . $daysToStart . ' hari lagi';
-            return;
-        }
-
-        if ($endDate && $now->gt($endDate)) {
-            $this->voucher_expired = true;
-            $this->voucher_label = 'Voucher periode habis';
-            return;
-        }
-
-        if (!is_null($quotaRemaining) && $quotaRemaining <= 0) {
-            $this->voucher_expired = true;
-            $this->voucher_label = 'Kuota voucher habis';
-            return;
-        }
-
-        $this->voucher_diskon = (int) $voucher->diskon_nominal;
-        $this->voucher_label = 'Voucher aktif. Diskon Rp ' . number_format($voucher->diskon_nominal, 0, ',', '.');
-    }
-
-    private function voucherValidationRules(): array
-    {
-        return [
-            'nullable',
-            'exists:vouchers,id',
-            function (string $attribute, $value, \Closure $fail): void {
-                if (!$value) {
-                    return;
-                }
-
-                $voucher = Voucher::find($value);
-                if (!$voucher || !$voucher->masihBerlaku()) {
-                    $fail('Voucher tidak dapat digunakan (tidak aktif, periode habis, atau kuota habis).');
-                }
-            },
-        ];
-    }
-
-    private function syncVoucherState(): void
-    {
-        $this->voucher_diskon = 0;
-        $this->voucher_label = null;
-        $this->voucher_expired = false;
-
-        if ($this->voucher_id) {
-            $this->updatedVoucherId($this->voucher_id);
-        }
     }
 
     public function updatedKodePos()
@@ -926,7 +833,6 @@ class PendaftaranWizard extends Component
             $this->validate([
                 'tahun_ajaran_id' => 'required|exists:tahun_ajaran,id',
                 'tanggal_daftar' => 'required|date',
-                'voucher_id' => $this->voucherValidationRules(),
                 'nama_siswa' => 'required|string',
                 'jenis_kelamin' => 'required|string',
                 'nisn' => 'nullable|digits_between:1,10|unique:siswa,nisn,' . ($this->editSiswaId ?? 'NULL') . ',id',
@@ -1004,20 +910,6 @@ class PendaftaranWizard extends Component
 
             $this->clearDraft();
 
-            // Deteksi voucher yg dipilih tetapi tidak diterapkan (kuota habis/dipakai
-            // pendaftar lain secara bersamaan). Data tetap aman (tidak over-use),
-            // namun user perlu tahu agar diskon tidak menghilang diam-diam.
-            if ($this->voucher_id) {
-                $voucherApplied = Siswa::find($siswaId)
-                    ->tagihan()
-                    ->whereNotNull('voucher_id')
-                    ->exists();
-
-                if (!$voucherApplied) {
-                    session()->flash('voucher_warning', 'Voucher tidak dapat diterapkan (kuota habis/digunakan pendaftar lain secara bersamaan). Tagihan dibuat tanpa diskon voucher.');
-                }
-            }
-
             // Jika berhasil, redirect ke halaman sukses
             return $this->redirect(route('pendaftaran.sukses', ['siswa' => $siswaId]));
         } catch (ValidationException $e) {
@@ -1065,7 +957,6 @@ class PendaftaranWizard extends Component
                     $reg->update([
                         'tanggal_daftar' => $this->tanggal_daftar,
                         'tahun_ajaran_id' => $this->tahun_ajaran_id,
-                        'voucher_id' => $this->voucher_id,
                     ]);
                 }
 
@@ -1181,15 +1072,6 @@ class PendaftaranWizard extends Component
                 DataPendukung::updateOrCreate(
                     ['siswa_id' => $siswa->id],
                     $dataPendukungPayload
-                );
-
-                // ================= SYNC VOUCHER TO TAGIHAN + KEUANGAN =================
-                // Voucher selection on Registration does not automatically affect existing tagihan.
-                // This call adjusts tagihan totals, voucher usage count, and reallocates payments if needed.
-                app(VoucherAdjustmentService::class)->adjustForSiswa(
-                    $siswa,
-                    $this->voucher_id ? (int) $this->voucher_id : null,
-                    'Panitia Public'
                 );
 
                 logAktivitas(
@@ -1322,7 +1204,9 @@ class PendaftaranWizard extends Component
             DataPendukung::create($dataPendukungPayload);
 
             // ================= GENERATE TAGIHAN =================
-            GenerateTagihanService::generate($siswa, $this->voucher_id);
+            // Voucher tidak lagi diterapkan di sini; voucher diklaim admin/panitia
+            // pada halaman rincian biaya setelah biaya lain lunas (VoucherClaimService).
+            GenerateTagihanService::generate($siswa);
 
             // ================= LOG AKTIVITAS =================
             logAktivitas(
@@ -1367,7 +1251,6 @@ class PendaftaranWizard extends Component
                     'nomor_registrasi' => $this->generateNomorRegistrasi(),
                     'tanggal_daftar' => $this->tanggal_daftar,
                     'tahun_ajaran_id' => $this->tahun_ajaran_id,
-                    'voucher_id' => $this->voucher_id,
                     'status' => Registration::STATUS_BAKAL_CALON,
                     'input_by' => auth()->id(),
                 ]);
@@ -1392,9 +1275,8 @@ class PendaftaranWizard extends Component
             // ================= DATA UMUM =================
             'tanggal_daftar.required' => 'Tanggal daftar wajib diisi.',
             'tanggal_daftar.date' => 'Format tanggal daftar tidak valid.',
-            'tahun_ajaran_id.required' => 'Tahun ajaran belum ditentukan oleh admin.',
+            'tahun_ajaran_id.required' => 'Tahun ajaran belum ditentukan.',
             'tahun_ajaran_id.exists' => 'Tahun ajaran tidak valid.',
-            'voucher_id.exists' => 'Voucher tidak valid.',
 
 
             // ================= SISWA =================
@@ -1527,7 +1409,6 @@ class PendaftaranWizard extends Component
             // DATA UMUM
             'tanggal_daftar' => 'required|date',
             'tahun_ajaran_id' => 'required|exists:tahun_ajaran,id',
-            'voucher_id' => $this->voucherValidationRules(),
 
             // SISWA
             'nama_siswa' => 'required|string|max:100',
@@ -1651,7 +1532,6 @@ class PendaftaranWizard extends Component
     {
         return view('livewire.pendaftaran-wizard', [
             'paud' => PaudTk::where('aktif', true)->get(),
-            'vouchers' => Voucher::orderBy('nama')->get(),
         ])->layout('layouts.public');
     }
 

@@ -118,6 +118,21 @@ class PembayaranController extends Controller
         $pembayaran = Pembayaran::findOrFail($id);
         $tagihan = $pembayaran->tagihan;
 
+        // Guard: jangan biarkan biaya lain jadi belum lunas selama voucher diklaim.
+        $totalTerbayarSetelah = (int) $tagihan->total_dibayar - (int) $pembayaran->nominal_bayar;
+        try {
+            app(\App\Services\VoucherClaimService::class)
+                ->assertPerubahanPembayaranAman($tagihan, $totalTerbayarSetelah);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            logAktivitas(
+                $aktor . ' - Gagal Hapus Cicilan',
+                'Gagal hapus pembayaran ID ' . $pembayaran->id
+                . ' karena membuat biaya lain belum lunas saat voucher masih diklaim (siswa ID ' . $tagihan->siswa_id . ').'
+            );
+
+            throw $e;
+        }
+
         // Log aktivitas sebelum hapus
         logAktivitas(
             $aktor . ' - Hapus Riwayat Cicilan',
@@ -178,6 +193,10 @@ class PembayaranController extends Controller
 
             return back()->with('error', 'Nominal melebihi sisa tagihan yang tersedia.');
         }
+
+        // Guard: jangan biarkan biaya lain jadi belum lunas selama voucher diklaim.
+        app(\App\Services\VoucherClaimService::class)
+            ->assertPerubahanPembayaranAman($tagihan, $totalTerbayarLain + (int) $request->nominal_bayar);
 
         $nominalLama = (int) $pembayaran->nominal_bayar;
         $tanggalLama = optional($pembayaran->tanggal_bayar)->format('Y-m-d');
@@ -301,11 +320,12 @@ class PembayaranController extends Controller
     public function notaRincianBiaya(Siswa $siswa)
     {
         $siswa->load([
-            'registration.voucher',
+            'registration',
             'alamat',
             'ibu',
             'tagihan.biaya',
             'tagihan.pembayaran',
+            'tagihan.voucher',
         ]);
 
         $namaPanitia = trim((string) request('panitia', ''));
@@ -346,6 +366,9 @@ class PembayaranController extends Controller
         $totalKekurangan = (int) $siswa->tagihan->sum('sisa');
         $totalTerbayar = max(0, $totalBiaya - $totalKekurangan);
 
+        $claimedTagihan = $siswa->tagihan->first(fn ($t) => !empty($t->kode_voucher));
+        $eligibleVouchers = app(\App\Services\VoucherClaimService::class)->getEligibleVouchers($siswa);
+
         logAktivitas(
             $aktor . ' - Cetak Nota Rincian Biaya',
             'Mencetak nota rincian biaya siswa ' . ($siswa->nama ?? '-')
@@ -361,7 +384,7 @@ class PembayaranController extends Controller
 
         $pdf = Pdf::loadView(
             'pendaftaran.cetak.nota-rincian-biaya',
-            compact('siswa', 'panitia', 'totalBiaya', 'totalTerbayar', 'totalKekurangan')
+            compact('siswa', 'panitia', 'totalBiaya', 'totalTerbayar', 'totalKekurangan', 'claimedTagihan', 'eligibleVouchers')
         );
 
         $pdf->setPaper([0, 0, 609.45, 935.43]); // F4: 215mm x 330mm

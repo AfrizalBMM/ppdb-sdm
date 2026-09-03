@@ -14,7 +14,6 @@ class Registration extends Model
         'nomor_registrasi',
         'tanggal_daftar',
         'tahun_ajaran_id',
-        'voucher_id',
         'status',
         'input_by',
     ];
@@ -44,10 +43,5 @@ class Registration extends Model
     public function tahunAjaran()
     {
         return $this->belongsTo(TahunAjaran::class);
-    }
-
-    public function voucher()
-    {
-        return $this->belongsTo(Voucher::class);
     }
 }

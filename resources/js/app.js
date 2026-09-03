@@ -1,11 +1,16 @@
 import './bootstrap';
-import 'flowbite';
 
+// SATU-SATUNYA definisi openModal/closeModal global.
+// Modal di project ini memakai pola: class `hidden` + `items-center justify-center`,
+// lalu JS menambah `flex` saat dibuka. Jangan definisikan ulang fungsi ini
+// di file lain (inline script) agar perilaku tetap konsisten.
 window.openModal = function (id) {
     const el = document.getElementById(id);
     if (!el) return;
 
     el.classList.remove('hidden');
+    el.classList.add('flex');
+    document.body.style.overflow = 'hidden';
 };
 
 window.closeModal = function (id) {
@@ -13,6 +18,8 @@ window.closeModal = function (id) {
     if (!el) return;
 
     el.classList.add('hidden');
+    el.classList.remove('flex');
+    document.body.style.overflow = '';
 };
 
 function hasSensitiveInputs(modalEl) {
@@ -35,8 +42,10 @@ function hasSensitiveInputs(modalEl) {
 function closeAndResetModal(modalEl) {
     if (!modalEl) return;
 
-    // Tutup modal (tanpa mengutak-atik class display lain seperti `flex`)
+    // Tutup modal (selaras dengan window.closeModal: hapus `flex`, lepas kunci scroll)
     modalEl.classList.add('hidden');
+    modalEl.classList.remove('flex');
+    document.body.style.overflow = '';
 
     // Reset form (mengosongkan input yang user ketik)
     modalEl.querySelectorAll('form').forEach((form) => {

@@ -227,7 +227,7 @@
     @php
         $reg = optional($siswa->registration);
         $alamat = optional($siswa->alamat);
-        $voucher = optional($reg->voucher);
+        $claimedTagihan = $claimedTagihan ?? $siswa->tagihan->first(fn ($t) => !empty($t->kode_voucher));
         $tglCetak = \Carbon\Carbon::now()->translatedFormat('d F Y');
         $jkLabel = match (strtolower((string) ($siswa->jenis_kelamin ?? ''))) {
             'laki-laki' => 'Laki-laki',
@@ -241,15 +241,11 @@
             $alamat->kabupaten ?? null,
             $alamat->provinsi ?? null,
         ])->filter(fn ($item) => trim((string) $item) !== '')->implode(', ');
-        $voucherNama = trim((string) ($voucher->nama ?? $voucher->kode ?? ''));
-        $voucherDiskon = (int) ($voucher->diskon_nominal ?? 0);
-        $voucherJenis = trim((string) ($voucher->jenis_biaya ?? ''));
-        $voucherJenisLabel = match (strtolower($voucherJenis)) {
-            'udp' => 'UDP',
-            'daftar_ulang' => 'Daftar Ulang',
-            'pendaftaran' => 'Pendaftaran',
-            default => $voucherJenis !== '' ? strtoupper($voucherJenis) : '-',
-        };
+        $voucher = optional($claimedTagihan?->voucher);
+        $voucherKode = trim((string) ($claimedTagihan->kode_voucher ?? ''));
+        $voucherDiskon = (int) ($claimedTagihan->diskon ?? 0);
+        $voucherJenisLabel = ui_label($claimedTagihan->biaya->jenis_biaya ?? '-');
+        $eligibleVouchers = $eligibleVouchers ?? collect();
     @endphp
 
     <div class="sheet">
@@ -294,14 +290,30 @@
                 <td class="lbl">Voucher</td>
                 <td class="sep">:</td>
                 <td class="val">
-                    @if($voucherNama !== '')
-                        {{ $voucherNama }} dengan potongan Rp {{ number_format($voucherDiskon, 0, ',', '.') }}
+                    @if($voucherKode !== '')
+                        {{ $voucherKode }}{{ $voucher->nama ? ' (' . $voucher->nama . ')' : '' }} —
+                        potongan Rp {{ number_format($voucherDiskon, 0, ',', '.') }}
+                        untuk biaya {{ $voucherJenisLabel }} (diklaim)
                     @else
                         -
                     @endif
                 </td>
             </tr>
         </table>
+
+        @if($voucherKode === '' && $eligibleVouchers->isNotEmpty())
+            <div style="margin-top: 6px; padding: 5px 8px; border: 1px dashed #999; font-size: 10px;">
+                <strong>Informasi Voucher:</strong>
+                Potongan voucher yang dapat diklaim untuk biaya
+                {{ ui_label($eligibleVouchers->first()->jenis_biaya) }}:
+                @foreach($eligibleVouchers as $ev)
+                    {{ $ev->kode }} (Rp {{ number_format($ev->diskon_nominal, 0, ',', '.') }})@if(!$loop->last), @endif
+                @endforeach.
+                Klaim dapat dilakukan oleh panitia dan hanya berlaku sampai tanggal
+                {{ $eligibleVouchers->first()->tanggal_selesai ? $eligibleVouchers->first()->tanggal_selesai->format('d/m/Y') : '-' }}
+                (setelah tanggal tersebut voucher dianggap hangus).
+            </div>
+        @endif
 
         <div class="section-label">Rincian Biaya dan Pembayaran</div>
         <table class="rincian">

@@ -25,6 +25,7 @@ use App\Http\Controllers\Admin\LandingTestimonialController;
 use App\Http\Controllers\Admin\LandingGalleryController;
 use App\Http\Controllers\Admin\LandingFaqController;
 use App\Http\Controllers\Admin\ProfileController;
+use App\Http\Controllers\VoucherKlaimController;
 
 Route::prefix('admin')
     ->middleware(['auth'])
@@ -132,6 +133,13 @@ Route::prefix('admin')
             Route::get('/keuangan/siswa/{siswa}', [KeuanganController::class, 'detail'])
                 ->name('keuangan.detail');
 
+            // Klaim / batalkan voucher pada rincian biaya siswa
+            Route::post('/keuangan/siswa/{siswa}/voucher/klaim', [VoucherKlaimController::class, 'klaim'])
+                ->name('keuangan.voucher.klaim');
+
+            Route::post('/keuangan/siswa/{siswa}/voucher/batal', [VoucherKlaimController::class, 'batal'])
+                ->name('keuangan.voucher.batal');
+
             Route::post('/pembayaran', [PembayaranController::class, 'store'])
                 ->name('pembayaran.store');
 
@@ -165,7 +173,7 @@ Route::prefix('admin')
                 ->name('voucher.destroyAll');
 
             Route::resource('voucher', VoucherController::class)
-                ->except(['show','edit','update']);
+                ->except(['show','edit','create']);
 
             Route::patch('/voucher/{voucher}/toggle', [VoucherController::class, 'toggle'])
                 ->name('voucher.toggle');
@@ -182,6 +190,10 @@ Route::prefix('admin')
             Route::post('/paud-tk/{paudTk}/toggle',
             [PaudTkController::class, 'toggle'])
             ->name('paud-tk.toggle');
+
+            Route::post('/paud-tk/{paudTk}/toggle-emis-dapodik',
+            [PaudTkController::class, 'toggleEmisDapodik'])
+            ->name('paud-tk.toggle-emis-dapodik');
 
             Route::get('/laporan/keuangan',
                 [LaporanKeuanganController::class,'index'])

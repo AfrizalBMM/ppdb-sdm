@@ -385,7 +385,7 @@ $isScopedKelas = !empty($kelasId) || !empty($filterBelumKelas);
                                         x-transition:enter-start="transform opacity-0 scale-95"
                                         x-transition:enter-end="transform opacity-100 scale-100" @click.away="open = false"
                                         @keydown.escape.window="open = false" x-ref="actionMenu"
-                                        class="fixed z-[200] w-48 origin-top-right rounded-xl border border-slate-200 bg-white shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none"
+                                        class="fixed z-dropdown w-48 origin-top-right rounded-xl border border-slate-200 bg-white shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none"
                                         :style="`top: ${menuTop}px; left: ${menuLeft}px;`" x-cloak>
                                         <div class="p-1.5">
                                             <a href="{{ route('pendaftar.show', optional($item->registration)->id ?? 1) }}"
@@ -423,6 +423,7 @@ $isScopedKelas = !empty($kelasId) || !empty($filterBelumKelas);
                                             @if($item->kelasSiswa)
                                             <div class="my-1 border-t border-slate-100"></div>
                                             <form method="POST" action="{{ route('siswa.remove-kelas', $item->id) }}"
+                                                @submit="open = false"
                                                 onsubmit="return window.globalConfirmSubmit(this, 'Keluarkan peserta didik ini dari kelas?', { title: 'Konfirmasi Keluarkan Peserta Didik' })">
                                                 @csrf
                                                 <button type="submit"

@@ -26,100 +26,26 @@
             </div>
         </div>
     </div>
+    <div class="grid gap-6">
 
-    <div class="grid gap-6 xl:grid-cols-5">
-        <div class="card xl:col-span-2">
-            <h3 class="text-base font-semibold text-slate-800">Tambah Biaya Baru</h3>
-            <p class="mt-1 text-xs text-slate-500">Form ini otomatis tersimpan ke tahun ajaran aktif.</p>
+        {{-- TOMBOL TAMBAH (form tambah dipindah ke modal) --}}
+    <div class="card">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <div>
+                <h3 class="text-base font-semibold text-slate-800">Data Biaya</h3>
+                <p class="mt-1 text-xs text-slate-500">Form tambah otomatis tersimpan ke tahun ajaran aktif.</p>
+            </div>
 
-            <form method="POST" action="{{ route('biaya.store') }}" class="mt-5 grid gap-4">
-                @csrf
-
-                <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-                    <x-select 
-                        name="jenis_biaya" 
-                        label="Jenis Biaya"
-                        :options="[
-                            'pendaftaran' => 'Pendaftaran',
-                            'daftar_ulang' => 'Daftar Ulang',
-                            'udp' => 'UDP'
-                        ]"
-                    />
-
-                    <x-select 
-                        name="kategori" 
-                        label="Kategori"
-                        :options="[
-                            'wajib' => 'Wajib',
-                            'opsional' => 'Opsional'
-                        ]"
-                    />
-
-                    <x-select 
-                        name="jenis_kelamin" 
-                        label="Jenis Kelamin"
-                        :options="[
-                            'semua' => 'Semua',
-                            'laki-laki' => 'Laki-laki',
-                            'perempuan' => 'Perempuan'
-                        ]"
-                    />
-                </div>
-
-                <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-                    <x-input name="nama_biaya" label="Nama Biaya" />
-                    <div class="space-y-1" x-data="{
-                        nominalRaw: '{{ old('nominal') }}',
-                        nominalFormatted: '',
-                        init() {
-                            const raw = (this.nominalRaw || '').toString().replace(/\D/g, '');
-                            this.nominalRaw = raw;
-                            this.nominalFormatted = this.formatNominal(raw);
-                        },
-                        formatNominal(value) {
-                            if (!value) return '';
-                            return new Intl.NumberFormat('id-ID').format(Number(value));
-                        },
-                        onNominalInput(event) {
-                            const raw = event.target.value.replace(/\D/g, '');
-                            this.nominalRaw = raw;
-                            this.nominalFormatted = this.formatNominal(raw);
-                        }
-                    }">
-                        <label class="text-sm font-medium text-gray-700">Nominal</label>
-                        <div class="relative">
-                            <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-sm font-medium text-slate-600">Rp.</span>
-                            <input
-                                type="text"
-                                inputmode="numeric"
-                                :value="nominalFormatted"
-                                @input="onNominalInput($event)"
-                                class="w-full rounded-lg border border-gray-300 py-2 pl-12 pr-3 text-sm shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
-                                placeholder="0"
-                            >
-                            <input type="hidden" name="nominal" :value="nominalRaw">
-                        </div>
-                        @error('nominal')
-                            <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
-                        @enderror
-                    </div>
-                </div>
-
-                <div class="rounded-lg border border-blue-200 bg-blue-50 px-3 py-2.5">
-                    <label class="inline-flex items-center gap-2 text-sm text-slate-700">
-                        <input type="checkbox" name="is_acuan_status_ppdb" value="1" class="rounded border-slate-300">
-                        Jadikan acuan perpindahan status PPDB
-                    </label>
-                    <p class="mt-1 text-xs text-blue-700/90">Acuan digunakan untuk menentukan kelayakan perpindahan status dari calon ke peserta didik.</p>
-                </div>
-
-                <div class="flex justify-end">
-                    <button type="submit" class="rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700">Simpan Biaya</button>
-                </div>
-            </form>
+            <div class="flex flex-col gap-2 sm:flex-row md:flex-row md:items-center">
+                <button onclick="openModal('modalTambahBiaya')"
+                    class="rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
+                    + Tambah Biaya
+                </button>
+            </div>
         </div>
+    </div>
 
-        <div class="card p-0 overflow-hidden xl:col-span-3">
+        <div class="card p-0 overflow-hidden">
             <div class="border-b border-slate-200 px-5 py-4">
                 <h3 class="text-base font-semibold text-slate-800">Daftar Biaya</h3>
                 <p class="mt-1 text-xs text-slate-500">Aktif/nonaktifkan, set acuan, atau hapus komponen biaya sesuai kebutuhan.</p>
@@ -216,7 +142,7 @@
                                             @click.away="open = false"
                                             @keydown.escape.window="open = false"
                                             x-ref="actionMenu"
-                                            class="fixed z-[200] w-44 rounded-lg border border-slate-200 bg-white p-2 shadow-lg"
+                                            class="fixed z-dropdown w-44 rounded-lg border border-slate-200 bg-white p-2 shadow-lg"
                                             :style="`top: ${menuTop}px; left: ${menuLeft}px;`"
                                         >
                                             <form method="POST" action="{{ route('biaya.toggle',$b) }}">
@@ -285,6 +211,117 @@
         </div>
     </div>
 
+</div>
+
+{{-- MODAL TAMBAH BIAYA --}}
+<div id="modalTambahBiaya" class="fixed inset-0 z-[300] hidden items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm transition-all duration-300">
+    <div class="w-full max-w-3xl max-h-[90vh] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl transform transition-all duration-300 sm:p-8">
+        <div class="mb-6 flex items-start justify-between gap-3">
+            <div>
+                <h3 class="text-xl font-bold text-slate-800">Tambah Biaya Baru</h3>
+                <p class="mt-1 text-xs text-slate-500">Form ini otomatis tersimpan ke tahun ajaran aktif.</p>
+            </div>
+            <button type="button" onclick="closeModal('modalTambahBiaya')"
+                class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition">
+                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <form method="POST" action="{{ route('biaya.store') }}" class="grid gap-4">
+            @csrf
+
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <x-select
+                    name="jenis_biaya"
+                    label="Jenis Biaya *"
+                    :options="[
+                        'pendaftaran' => 'Pendaftaran',
+                        'daftar_ulang' => 'Daftar Ulang',
+                        'udp' => 'UDP'
+                    ]"
+                />
+
+                <x-select
+                    name="kategori"
+                    label="Kategori *"
+                    :options="[
+                        'wajib' => 'Wajib',
+                        'opsional' => 'Opsional'
+                    ]"
+                />
+
+                <x-select
+                    name="jenis_kelamin"
+                    label="Jenis Kelamin *"
+                    :options="[
+                        'semua' => 'Semua',
+                        'laki-laki' => 'Laki-laki',
+                        'perempuan' => 'Perempuan'
+                    ]"
+                />
+            </div>
+
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <x-input name="nama_biaya" label="Nama Biaya *" />
+                <div class="space-y-1" x-data="{
+                    nominalRaw: '{{ old('nominal') }}',
+                    nominalFormatted: '',
+                    init() {
+                        const raw = (this.nominalRaw || '').toString().replace(/\D/g, '');
+                        this.nominalRaw = raw;
+                        this.nominalFormatted = this.formatNominal(raw);
+                    },
+                    formatNominal(value) {
+                        if (!value) return '';
+                        return new Intl.NumberFormat('id-ID').format(Number(value));
+                    },
+                    onNominalInput(event) {
+                        const raw = event.target.value.replace(/\D/g, '');
+                        this.nominalRaw = raw;
+                        this.nominalFormatted = this.formatNominal(raw);
+                    }
+                }">
+                    <label class="text-sm font-medium text-gray-700">Nominal *</label>
+                    <div class="relative">
+                        <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-sm font-medium text-slate-600">Rp.</span>
+                        <input
+                            type="text"
+                            inputmode="numeric"
+                            :value="nominalFormatted"
+                            @input="onNominalInput($event)"
+                            class="w-full rounded-lg border border-gray-300 py-2 pl-12 pr-3 text-sm shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+                            placeholder="0"
+                        >
+                        <input type="hidden" name="nominal" :value="nominalRaw">
+                    </div>
+                    @error('nominal')
+                        <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
+                    @enderror
+                </div>
+            </div>
+
+            <div class="rounded-lg border border-blue-200 bg-blue-50 px-3 py-2.5">
+                <label class="inline-flex items-center gap-2 text-sm text-slate-700">
+                    <input type="checkbox" name="is_acuan_status_ppdb" value="1" class="rounded border-slate-300">
+                    Jadikan acuan perpindahan status PPDB
+                </label>
+                <p class="mt-1 text-xs text-blue-700/90">Acuan digunakan untuk menentukan kelayakan perpindahan status dari calon ke peserta didik.</p>
+            </div>
+
+            <div class="flex justify-end gap-3 border-t border-slate-200 pt-4">
+                <button type="button" onclick="closeModal('modalTambahBiaya')"
+                    class="rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
+                    Batal
+                </button>
+                <button type="submit"
+                    class="rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-blue-500/30 hover:bg-blue-700 transition-all">
+                    Simpan Biaya
+                </button>
+            </div>
+        </form>
+    </div>
 </div>
 
 {{-- MODAL DELETE --}}

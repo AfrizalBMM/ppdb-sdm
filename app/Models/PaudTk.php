@@ -18,11 +18,13 @@ class PaudTk extends Model
         'kecamatan',
         'telp',
         'akreditasi',
+        'is_emis_dapodik',
         'aktif',
     ];
 
     protected $casts = [
         'aktif' => 'boolean',
+        'is_emis_dapodik' => 'boolean',
     ];
 
     /*

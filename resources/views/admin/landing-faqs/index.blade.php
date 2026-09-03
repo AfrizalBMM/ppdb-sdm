@@ -118,7 +118,7 @@
     </div>
 
     <!-- Modal Create -->
-    <div x-show="showCreate" class="fixed inset-0 z-50 overflow-y-auto" x-cloak>
+    <div x-show="showCreate" class="fixed inset-0 z-modal overflow-y-auto" x-cloak>
         <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
             <div x-show="showCreate" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 bg-black/50 transition-opacity" @click="showCreate = false"></div>
 
@@ -156,7 +156,7 @@
     </div>
 
     <!-- Modal Edit -->
-    <div x-show="showEdit" class="fixed inset-0 z-50 overflow-y-auto" x-cloak>
+    <div x-show="showEdit" class="fixed inset-0 z-modal overflow-y-auto" x-cloak>
         <div class="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
             <div x-show="showEdit" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 bg-black/50 transition-opacity" @click="showEdit = false"></div>
 

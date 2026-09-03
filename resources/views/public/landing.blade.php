@@ -552,7 +552,7 @@
     </a>
 
     {{-- BROSUR MODAL --}}
-    <div x-show="brosurModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4" style="display: none;">
+    <div x-show="brosurModal" class="fixed inset-0 z-modal flex items-center justify-center p-4" style="display: none;">
         <!-- Backdrop -->
         <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" @click="brosurModal = false"
             x-transition.opacity></div>
@@ -612,7 +612,7 @@
     </div>
 
     {{-- GALLERY LIGHTBOX --}}
-    <div id="lightbox" class="fixed inset-0 z-[200] bg-black/90 backdrop-blur-sm items-center justify-center p-4"
+    <div id="lightbox" class="fixed inset-0 z-modal bg-black/90 backdrop-blur-sm items-center justify-center p-4"
         onclick="closeLightbox()">
         <button onclick="closeLightbox()"
             class="absolute top-4 right-4 text-white bg-white/10 hover:bg-white/20 rounded-full p-3 transition-colors z-10">
