@@ -49,7 +49,7 @@ class CetakController extends Controller
         );
 
         $pdf = Pdf::loadView('pdf.formulir', compact('siswa'))
-            ->setPaper('f4', 'portrait'); // PALING AMAN
+            ->setPaper([0.0, 0.0, 609.45, 935.43], 'portrait'); // F4: 215mm x 330mm
 
         return $pdf->stream(
             'Formulir-' . $siswa->registration->nomor_registrasi . '.pdf'

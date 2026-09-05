@@ -3,45 +3,73 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\PasswordPanitia;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-use App\Models\TahunAjaran; 
 
 class PasswordPanitiaController extends Controller
 {
-    public function index()
-    {
-        $tahunAjaran = TahunAjaran::where('aktif', 1)->first();
-
-        $password = $tahunAjaran
-            ? PasswordPanitia::where('tahun_ajaran_id', $tahunAjaran->id)->first()
-            : null;
-
-        return view('admin.password_panitia', compact('password', 'tahunAjaran'));
-    }
-
     public function store(Request $request)
     {
         $request->validate([
-            'password' => 'required|string|max:50'
+            'nama' => 'required|string|max:100|unique:password_panitia,nama',
+            'password' => 'required|string|max:50',
         ]);
 
-        $tahunAjaran = TahunAjaran::where('aktif', 1)->first();
+        $data = PasswordPanitia::create([
+            'nama' => trim((string) $request->nama),
+            'password' => Hash::make($request->password),
+        ]);
 
-        if (!$tahunAjaran) {
-            return back()->with('error', 'Belum ada tahun ajaran aktif. Aktifkan tahun ajaran terlebih dahulu di menu Tahun Ajaran.');
-        }
-
-        PasswordPanitia::updateOrCreate(
-            ['tahun_ajaran_id' => $tahunAjaran->id],
-            ['password' => Hash::make($request->password)]
+        logAktivitas(
+            'Password Panitia',
+            'Menambahkan panitia baru: ' . $data->nama . ' (ID: ' . $data->id . ').'
         );
 
-        logAktivitas('Password Panitia', 'Memperbarui password panitia untuk tahun ajaran ' . $tahunAjaran->nama);
+        return back()->with('success', 'Panitia berhasil ditambahkan.');
+    }
 
-        return back()
-            ->with('success','Password panitia berhasil disimpan')
-            ->with('password_plain', $request->password);
+    public function update(Request $request, PasswordPanitia $passwordPanitia)
+    {
+        $request->validate([
+            'nama' => 'required|string|max:100|unique:password_panitia,nama,' . $passwordPanitia->id,
+            'password' => 'nullable|string|max:50',
+        ]);
+
+        $oldNama = $passwordPanitia->nama;
+
+        $payload = [
+            'nama' => trim((string) $request->nama),
+        ];
+
+        if ($request->filled('password')) {
+            $payload['password'] = Hash::make($request->password);
+        }
+
+        $passwordPanitia->update($payload);
+
+        logAktivitas(
+            'Password Panitia',
+            'Memperbarui data panitia ID ' . $passwordPanitia->id
+            . ' (nama: ' . $oldNama . ' -> ' . $passwordPanitia->nama
+            . ', password diubah: ' . ($request->filled('password') ? 'ya' : 'tidak') . ').'
+        );
+
+        return back()->with('success', 'Data panitia berhasil diperbarui.');
+    }
+
+    public function destroy(PasswordPanitia $passwordPanitia)
+    {
+        $nama = $passwordPanitia->nama;
+        $id = $passwordPanitia->id;
+
+        $passwordPanitia->delete();
+
+        logAktivitas(
+            'Password Panitia',
+            'Menghapus panitia: ' . $nama . ' (ID: ' . $id . ').'
+        );
+
+        return back()->with('success', 'Panitia berhasil dihapus.');
     }
 }

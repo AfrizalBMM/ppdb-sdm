@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int $id
  * @property string $nama
  * @property bool $aktif
+ * @property \Carbon\Carbon|null $batas_maksimal_lahir
  * @method static \Illuminate\Database\Eloquent\Builder|TahunAjaran aktif()
  * @mixin \Illuminate\Database\Eloquent\Builder
  */
@@ -19,10 +20,12 @@ class TahunAjaran extends Model
     protected $fillable = [
         'nama',
         'aktif',
+        'batas_maksimal_lahir',
     ];
 
     protected $casts = [
         'aktif' => 'boolean',
+        'batas_maksimal_lahir' => 'date',
     ];
 
     /*

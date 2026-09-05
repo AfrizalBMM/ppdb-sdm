@@ -170,7 +170,11 @@
                     {{-- Hint batas umur --}}
                     <p class="text-slate-400 text-xs mt-1">
                         Maks. lahir: {{ $this->getMinBirthDate()->format('d/m/Y') }}
-                        (usia minimal 6 tahun per 30 Juni {{ $this->getCutoffYear() }})
+                        @if($this->getMinBirthDateSource() === 'setting')
+                            (sesuai tahun ajaran)
+                        @else
+                            (usia minimal 6 tahun per 30 Juni {{ $this->getCutoffYear() }})
+                        @endif
                     </p>
 
                     {{-- Live feedback usia kurang --}}
@@ -1314,111 +1318,169 @@
                 </div>
 
                 {{-- Asal PAUD / TK --}}
-                <div class="md:col-span-3" x-data="tkPicker({
-                    selectedId: $wire.entangle('paud_tk_id'),
-                    selectedName: @js(optional($paud->firstWhere('id', $paud_tk_id))->nama),
-                    manualNama: $wire.entangle('nama_tk_manual'),
-                    manualAlamat: $wire.entangle('alamat_tk'),
-                    isManual: $wire.entangle('is_manual_tk'),
+                {{-- wire:ignore (full): Livewire TIDAK morph subtree ini sama sekali.
+                     TANPA entangle: nilai TK di-sync ke Livewire via hidden input
+                     wire:model.defer + dispatch input event manual. Tidak ada
+                     Livewire round-trip saat selectTk → tidak ada morph → state
+                     Alpine (open, search, listener tombol) terjaga. --}}
+                <div class="md:col-span-3" wire:key="tk-picker-section" wire:ignore x-data="tkPicker({
+                    paudTkId: @js($paud_tk_id),
+                    namaTkManual: @js($nama_tk_manual),
+                    alamatTk: @js($alamat_tk),
                     options: @js($paud->map(fn($item) => [
                         'id' => $item->id,
                         'nama' => $item->nama,
-                        'alamat' => trim(($item->kelurahan ?? '') . (($item->kecamatan ?? '') ? ' - ' . $item->kecamatan : '')),
+                        'alamat' => trim(($item->alamat ?: trim(($item->kelurahan ?? '') . (($item->kecamatan ?? '') ? ' - ' . $item->kecamatan : '')))),
+                        'is_emis_dapodik' => (bool) $item->is_emis_dapodik,
                     ])->values())
-                })" x-init="init()">
+                })">
+
+                    {{-- Hidden inputs: jembatan Alpine → Livewire via wire:model.defer --}}
+                    {{-- Alpine x-model set nilai; syncToLivewire() dispatch input event --}}
+                    {{-- supaya Livewire $wire.data terupdate tanpa round-trip. --}}
+                    <input type="hidden" wire:model.defer="paud_tk_id" x-model="paudTkId" x-ref="hiddenPaudTkId">
+                    <input type="hidden" wire:model.defer="nama_tk_manual" x-model="namaTkManual" x-ref="hiddenNamaTk">
+                    <input type="hidden" wire:model.defer="alamat_tk" x-model="alamatTk" x-ref="hiddenAlamatTk">
+                    <input type="hidden" wire:model.defer="is_manual_tk" :value="paudTkId === null ? 1 : 0" x-ref="hiddenIsManual">
 
                     <div class="grid md:grid-cols-2 gap-4 md:gap-5 mt-3 items-start">
                         <div>
+                            {{-- Judul + tombol Daftar TK --}}
                             <div class="flex items-center gap-2 mb-2">
-                                <label class="label mb-0">Asal TK / BA / RA</label>
-                                <span class="inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium"
-                                    :class="isManual ? 'bg-amber-100 text-amber-700' : 'bg-emerald-100 text-emerald-700'"
-                                    x-text="isManual ? 'Mode manual aktif' : 'Dipilih dari daftar TK'"></span>
-                            </div>
-                            <div class="mb-2" x-show="isManual" x-cloak>
-                                <button type="button" @click="switchToListMode()"
-                                    class="text-xs font-medium text-primary hover:text-primary/80">
-                                    Kembali ke daftar TK
-                                </button>
-                                <p class="text-xs text-slate-500 mt-1">
-                                    Gunakan mode manual jika nama TK belum tersedia di daftar.
-                                </p>
-                            </div>
-
-                            <div class="relative" @keydown.escape="open = false">
-                                <button type="button" @click="toggle()"
-                                    class="input w-full text-left flex items-center justify-between @error('paud_tk_id') border-red-500 @enderror">
-                                    <span class="truncate" :class="displayName() ? 'text-slate-900' : 'text-slate-400'"
-                                        x-text="displayName() || 'Pilih Nama TK'"></span>
-                                    <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
+                                <label class="label mb-0">Asal TK / BA / RA <span class="text-red-500">*</span></label>
+                                <button type="button" @click="openModal()"
+                                    class="inline-flex items-center gap-1 rounded-lg bg-emerald-600 px-2.5 py-1 text-xs font-semibold text-white shadow-sm transition hover:bg-emerald-700">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M19 9l-7 7-7-7" />
+                                            d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                                     </svg>
+                                    Daftar TK
                                 </button>
-
-                                <div x-show="open" x-transition x-cloak @click.outside="open = false"
-                                    class="absolute z-dropdown mt-1 w-full rounded-lg border border-slate-200 bg-white shadow-lg">
-                                    <div class="p-2 border-b border-slate-100">
-                                        <input type="text" x-ref="searchInput" x-model.debounce.200ms="search"
-                                            @keydown.enter.prevent placeholder="Cari nama TK" class="input w-full">
-                                    </div>
-                                    <ul class="max-h-56 overflow-y-auto py-1">
-                                        <template x-for="item in filteredOptions()" :key="item.id">
-                                            <li>
-                                                <button type="button" @click="selectOption(item)"
-                                                    class="w-full px-3 py-2 text-left text-sm hover:bg-slate-100"
-                                                    :class="selectedId == item.id && !isManual ? 'bg-slate-100 font-medium' : ''">
-                                                    <span x-text="item.nama"></span>
-                                                </button>
-                                            </li>
-                                        </template>
-
-                                        <li x-show="filteredOptions().length === 0"
-                                            class="px-3 py-2 text-sm text-slate-500">
-                                            Tidak ditemukan.
-                                        </li>
-
-                                        <li class="border-t border-slate-100 mt-1 pt-1">
-                                            <button type="button" @click="selectManualMode()"
-                                                class="w-full px-3 py-2 text-left text-sm text-primary hover:bg-primary/5">
-                                                Nama TK tidak ada? Isi manual
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <span class="inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium"
+                                    :class="paudTkId ? 'bg-emerald-100 text-emerald-700' : 'bg-amber-100 text-amber-700'"
+                                    x-text="paudTkId ? 'Terpilih dari daftar' : 'Input manual'"></span>
                             </div>
 
-                            @error('paud_tk_id')
-                                <p class="text-red-600 text-xs mt-1">{{ $message }}</p>
-                            @enderror
-                            @error('is_manual_tk')
-                                <p class="text-red-600 text-xs mt-1">{{ $message }}</p>
-                            @enderror
-
-                            <div class="mt-4" x-show="isManual" x-cloak>
-                                <label class="label">Nama TK (Manual) <span class="text-red-500">*</span></label>
-                                <input type="text" x-ref="manualNamaInput" x-model="manualNama"
-                                    class="input @error('nama_tk_manual') border-red-500 @enderror"
-                                    placeholder="Contoh: TK Harapan Bunda">
-                                @error('nama_tk_manual')
-                                    <p class="text-red-600 text-xs mt-1">{{ $message }}</p>
-                                @enderror
-                            </div>
+                            {{-- Input Asal TK biasa (editable, x-model only, NO wire:model) --}}
+                            <input type="text" x-ref="namaTkInput" x-model="namaTkManual"
+                                @input="onManualInput()"
+                                class="input"
+                                :class="$wire.errors.nama_tk_manual ? 'border-red-500' : ''"
+                                placeholder="Ketik nama TK atau pilih dari Daftar TK" required>
+                            <p class="text-slate-400 text-xs mt-1">
+                                Klik tombol <span class="font-semibold text-emerald-700">Daftar TK</span>
+                                untuk memilih dari daftar, atau ketik manual jika belum tersedia.
+                            </p>
+                            <template x-if="$wire.errors.nama_tk_manual">
+                                <p class="text-red-600 text-xs mt-1" x-text="$wire.errors.nama_tk_manual"></p>
+                            </template>
+                            <template x-if="$wire.errors.paud_tk_id">
+                                <p class="text-red-600 text-xs mt-1" x-text="$wire.errors.paud_tk_id"></p>
+                            </template>
+                            <template x-if="$wire.errors.is_manual_tk">
+                                <p class="text-red-600 text-xs mt-1" x-text="$wire.errors.is_manual_tk"></p>
+                            </template>
                         </div>
 
                         <div>
-                            <label class="label">Alamat TK <span x-show="isManual" x-cloak><span
-                                        class="text-red-500">*</span></span></label>
-                            <textarea x-model="manualAlamat" :readonly="!isManual" rows="3"
-                                class="input @error('alamat_tk') border-red-500 @enderror"
-                                :class="!isManual ? 'bg-slate-100 cursor-not-allowed' : ''"
-                                :placeholder="isManual ? 'Tulis alamat TK' : 'Terisi otomatis saat pilih TK'"></textarea>
-                            @error('alamat_tk')
-                                <p class="text-red-600 text-xs mt-1">{{ $message }}</p>
-                            @enderror
+                            <label class="label">Alamat TK <span class="text-red-500">*</span></label>
+                            <textarea x-model="alamatTk" rows="3"
+                                @input="onManualInput()"
+                                class="input"
+                                :class="$wire.errors.alamat_tk ? 'border-red-500' : ''"
+                                placeholder="Tulis alamat TK (terisi otomatis saat pilih dari Daftar TK)"
+                                required></textarea>
+                            <template x-if="$wire.errors.alamat_tk">
+                                <p class="text-red-600 text-xs mt-1" x-text="$wire.errors.alamat_tk"></p>
+                            </template>
                         </div>
                     </div>
+
+                    {{-- MODAL DAFTAR TK --}}
+                    {{-- wire:ignore sudah ada di parent, modal teleport stabil lintas morph. --}}
+                    <template x-teleport="body">
+                        <div x-show="open" x-transition.opacity x-cloak @click.self="closeModal()"
+                            class="fixed inset-0 z-modal flex items-center justify-center bg-black/50 p-4">
+                            <div x-transition x-show="open"
+                                class="bg-white rounded-2xl shadow-xl max-w-2xl w-full overflow-hidden flex flex-col max-h-[85vh]">
+
+                                {{-- Header modal --}}
+                                <div class="flex items-center justify-between bg-gradient-to-r from-emerald-600 to-emerald-700 px-5 py-4">
+                                    <div>
+                                        <h3 class="text-base font-semibold text-white">Daftar TK / PAUD</h3>
+                                        <p class="text-xs text-emerald-100 mt-0.5">
+                                            Klik nama TK untuk mengisi form secara otomatis.
+                                        </p>
+                                    </div>
+                                    <button type="button" @click="closeModal()"
+                                        class="text-white hover:text-emerald-100 transition">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M6 18L18 6M6 6l12 12" />
+                                        </svg>
+                                    </button>
+                                </div>
+
+                                {{-- Search --}}
+                                <div class="p-3 border-b border-slate-100">
+                                    <div class="relative">
+                                        <input type="text" x-ref="searchInput" x-model.debounce.200ms="search"
+                                            @keydown.escape="closeModal()"
+                                            placeholder="Cari nama atau alamat TK..."
+                                            class="input w-full pl-9">
+                                        <svg class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2"
+                                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                {{-- List --}}
+                                <ul class="flex-1 overflow-y-auto py-1">
+                                    <template x-for="item in filteredOptions()" :key="item.id">
+                                        <li>
+                                            <button type="button" @click="selectTk(item)"
+                                                class="w-full px-5 py-3 text-left hover:bg-emerald-50 transition border-b border-slate-100 last:border-b-0"
+                                                :class="paudTkId == item.id ? 'bg-emerald-50' : ''">
+                                                <div class="flex items-start justify-between gap-3">
+                                                    <div class="min-w-0 flex-1">
+                                                        <p class="text-sm font-semibold text-slate-800 truncate"
+                                                            x-text="item.nama"></p>
+                                                        <p class="text-xs text-slate-500 mt-0.5"
+                                                            x-text="item.alamat || '-'"></p>
+                                                    </div>
+                                                    {{-- Badge EMIS/DAPODIK --}}
+                                                    <span x-show="item.is_emis_dapodik" x-cloak
+                                                        class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-2 py-0.5 text-[10px] font-semibold text-blue-700 whitespace-nowrap">
+                                                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        EMIS/DAPODIK
+                                                    </span>
+                                                </div>
+                                            </button>
+                                        </li>
+                                    </template>
+
+                                    <li x-show="filteredOptions().length === 0"
+                                        class="px-5 py-8 text-center text-sm text-slate-500">
+                                        Tidak ditemukan TK yang cocok.
+                                    </li>
+                                </ul>
+
+                                {{-- Footer: opsi manual --}}
+                                <div class="border-t border-slate-100 bg-slate-50 px-5 py-3">
+                                    <button type="button" @click="chooseManual()"
+                                        class="text-sm font-medium text-emerald-700 hover:text-emerald-800">
+                                        TK tidak ada di daftar? Ketik manual di form →
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
                 </div>
 
                 {{-- Hobi --}}
@@ -1600,101 +1662,83 @@
                     open: false,
                     search: '',
                     options: initial.options || [],
-                    selectedId: initial.selectedId,
-                    selectedName: initial.selectedName || '',
-                    manualNama: initial.manualNama,
-                    manualAlamat: initial.manualAlamat,
-                    isManual: initial.isManual,
+                    paudTkId: initial.paudTkId,
+                    namaTkManual: initial.namaTkManual,
+                    alamatTk: initial.alamatTk,
+                    isSelecting: false,
 
-                    syncWire() {
-                        // Semua binding telah menggunakan $wire.entangle()
+                    openModal() {
+                        this.open = true;
+                        this.search = '';
+                        this.$nextTick(() => this.$refs.searchInput?.focus());
                     },
 
-                    init() {
-                        if (this.selectedId && !this.selectedName) {
-                            const found = this.options.find((item) => String(item.id) === String(this.selectedId));
-                            if (found) {
-                                this.selectedName = found.nama;
-                                this.manualAlamat = found.alamat || '';
-                            }
-                        }
-                    },
-
-                    toggle() {
-                        this.open = !this.open;
-                        if (this.open) {
-                            this.$nextTick(() => this.$refs.searchInput?.focus());
-                        }
+                    closeModal() {
+                        this.open = false;
+                        this.search = '';
                     },
 
                     filteredOptions() {
                         if (!this.search) {
                             return this.options;
                         }
-
-                        const keyword = this.search.toLowerCase();
-                        return this.options.filter((item) => item.nama.toLowerCase().includes(keyword));
-                    },
-
-                    selectOption(item) {
-                        this.isManual = false;
-                        this.selectedId = item.id;
-                        this.selectedName = item.nama;
-                        this.manualNama = '';
-                        this.manualAlamat = item.alamat || '';
-                        this.open = false;
-                        this.search = '';
-                        this.syncWire();
-                    },
-
-                    selectManualMode() {
-                        this.isManual = true;
-                        this.selectedId = null;
-                        this.selectedName = '';
-                        this.manualAlamat = '';
-                        this.open = false;
-                        this.search = '';
-                        this.syncWire();
-                        this.$nextTick(() => {
-                            this.$refs.manualNamaInput?.focus();
+                        const kw = this.search.toLowerCase();
+                        return this.options.filter((item) => {
+                            const nama = (item.nama || '').toLowerCase();
+                            const alamat = (item.alamat || '').toLowerCase();
+                            return nama.includes(kw) || alamat.includes(kw);
                         });
                     },
 
-                    async switchToListMode() {
-                        const hasManualDraft = (this.manualNama && this.manualNama.trim() !== '') ||
-                            (this.manualAlamat && this.manualAlamat.trim() !== '');
-
-                        if (hasManualDraft) {
-                            let proceed = true;
-                            if (typeof window.showGlobalConfirm === 'function') {
-                                proceed = await window.showGlobalConfirm(
-                                    'Input manual akan dihapus jika kembali ke daftar TK. Lanjutkan?', {
-                                    title: 'Konfirmasi Perubahan',
-                                    okText: 'Ya, Lanjutkan',
-                                    cancelText: 'Batal'
-                                });
-                            }
-                            if (!proceed) {
-                                return;
-                            }
-                        }
-
-                        this.isManual = false;
-                        this.manualNama = '';
-                        this.manualAlamat = '';
-                        this.selectedId = null;
-                        this.selectedName = '';
-                        this.syncWire();
-                        this.open = true;
-                        this.$nextTick(() => this.$refs.searchInput?.focus());
+                    selectTk(item) {
+                        this.isSelecting = true;
+                        this.closeModal();
+                        this.paudTkId = item.id;
+                        this.namaTkManual = item.nama;
+                        this.alamatTk = item.alamat || '';
+                        // Sync ke Livewire via hidden input wire:model.defer
+                        this.$nextTick(() => {
+                            this.syncToLivewire();
+                            this.isSelecting = false;
+                        });
                     },
 
-                    displayName() {
-                        if (this.isManual) {
-                            return this.manualNama ? `Manual: ${this.manualNama}` : 'Manual (isi nama TK)';
-                        }
+                    chooseManual() {
+                        this.closeModal();
+                        this.paudTkId = null;
+                        this.$nextTick(() => {
+                            this.syncToLivewire();
+                            this.$refs.namaTkInput?.focus();
+                        });
+                    },
 
-                        return this.selectedName;
+                    onManualInput() {
+                        if (this.isSelecting) return;
+                        if (this.paudTkId != null) {
+                            this.paudTkId = null;
+                        }
+                        // Sync ke Livewire setiap user ketik manual
+                        this.syncToLivewire();
+                    },
+
+                    /**
+                     * Sinkronisasi nilai Alpine → Livewire TANPA round-trip.
+                     *
+                     * Alpine x-model sudah set el.value pada hidden input
+                     * (x-ref hiddenPaudTkId / hiddenNamaTk / hiddenAlamatTk /
+                     * hiddenIsManual). Kita dispatch event 'input' supaya
+                     * wire:model.defer listener Livewire menyimpan nilai tsb
+                     * di $wire.data. Tidak ada request HTTP yang dikirim —
+                     * nilai baru terkirim saat Livewire action berikutnya
+                     * (yaitu form submit wire:submit="prepareSubmit").
+                     */
+                    syncToLivewire() {
+                        const refs = ['hiddenPaudTkId', 'hiddenNamaTk', 'hiddenAlamatTk', 'hiddenIsManual'];
+                        refs.forEach((refName) => {
+                            const el = this.$refs[refName];
+                            if (!el) return;
+                            el.dispatchEvent(new Event('input', { bubbles: true }));
+                        });
                     },
                 }));
 

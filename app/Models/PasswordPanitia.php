@@ -9,12 +9,7 @@ class PasswordPanitia extends Model
     protected $table = 'password_panitia';
 
     protected $fillable = [
-        'tahun_ajaran_id',
-        'password'
+        'nama',
+        'password',
     ];
-
-    public function tahunAjaran()
-    {
-        return $this->belongsTo(TahunAjaran::class);
-    }
 }

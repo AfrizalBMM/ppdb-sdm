@@ -64,6 +64,7 @@
                             <th class="px-4 py-3 text-left w-16">No</th>
                             <th class="px-4 py-3 text-left">Nama</th>
                             <th class="px-4 py-3 text-center">Status</th>
+                            <th class="px-4 py-3 text-center">Batas Maksimal Lahir</th>
                             <th class="px-4 py-3 text-center">Aksi</th>
                         </tr>
                     </thead>
@@ -94,7 +95,24 @@
                                 </td>
 
                                 <td class="px-4 py-3 text-center">
+                                    @if($item->batas_maksimal_lahir)
+                                        <span class="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
+                                            {{ $item->batas_maksimal_lahir->format('d/m/Y') }}
+                                        </span>
+                                    @else
+                                        <span class="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700">
+                                            Belum diatur
+                                        </span>
+                                    @endif
+                                </td>
+
+                                <td class="px-4 py-3 text-center">
                                     <div class="flex flex-wrap justify-center gap-2">
+                                        <button type="button" onclick="openBatasLahirModal('{{ $item->id }}', '{{ $item->nama }}', '{{ $item->batas_maksimal_lahir?->format('Y-m-d') }}')"
+                                            class="rounded-lg border border-indigo-200 bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-700 hover:bg-indigo-100">
+                                            Atur Batas
+                                        </button>
+
                                         @if(!$item->aktif)
                                         <form method="POST" action="{{ route('tahun-ajaran.aktifkan',$item) }}">
                                             @csrf
@@ -118,7 +136,7 @@
                             </tr>
                         @empty
                             <tr>
-                                <td colspan="4" class="px-4 py-8 text-center text-slate-500">
+                                <td colspan="5" class="px-4 py-8 text-center text-slate-500">
                                     Data tahun ajaran belum tersedia
                                 </td>
                             </tr>
@@ -201,6 +219,85 @@
         </div>
     </div>
 
-</div>
+    {{-- MODAL ATUR BATAS LAHIR --}}
+    <div id="modalBatasLahir" class="fixed inset-0 z-[300] hidden items-center justify-center bg-slate-900/60 p-4 backdrop-blur-sm transition-all duration-300">
+        <div class="w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl transform transition-all duration-300 sm:p-8">
+            <div class="mb-6 flex items-start justify-between gap-3">
+                <div>
+                    <h3 class="text-xl font-bold text-slate-800">Atur Batas Maksimal Lahir</h3>
+                    <p class="mt-1 text-xs text-slate-500">
+                        Tentukan tanggal batas maksimal lahir calon siswa untuk tahun ajaran
+                        <span id="batasLahirTahunNama" class="font-semibold text-slate-700"></span>.
+                    </p>
+                </div>
+                <button type="button" onclick="closeBatasLahirModal()"
+                    class="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <form id="formBatasLahir" method="POST" action="" class="flex flex-col gap-4">
+                @csrf
+                @method('PUT')
+
+                <div>
+                    <label class="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-slate-500">
+                        Tanggal Batas Maksimal Lahir <span class="text-red-500">*</span>
+                    </label>
+                    <input type="date" name="batas_maksimal_lahir" id="batasLahirInput"
+                        class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-700 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                        required>
+                    <p class="text-xs text-slate-500 mt-1">
+                        Calon siswa yang lahir <span class="font-semibold">setelah</span> tanggal ini
+                        dianggap belum memenuhi syarat usia dan tidak dapat mendaftar pada tahun ajaran ini.
+                    </p>
+                </div>
+
+                <div class="rounded-xl border border-amber-200 bg-amber-50 p-3 text-xs text-amber-700">
+                    Tips: umumnya batas lahir PPDB SD adalah <span class="font-semibold">30 Juni</span>
+                    pada tahun dimana calon siswa minimal berusia 6 tahun. Contoh: untuk pendaftar
+                    minimal 6 tahun per 30 Juni 2026, isi dengan <span class="font-semibold">30/06/2020</span>.
+                </div>
+
+                <div class="flex justify-end gap-3 border-t border-slate-200 pt-4">
+                    <button type="button" onclick="closeBatasLahirModal()"
+                        class="rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors">
+                        Batal
+                    </button>
+                    <button type="submit"
+                        class="rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/30 hover:bg-indigo-700 transition-all">
+                        Simpan
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openBatasLahirModal(id, nama, current) {
+            const form = document.getElementById('formBatasLahir');
+            if (!form) return;
+            const baseUrl = "{{ route('tahun-ajaran.batas-lahir', '__ID__') }}";
+            form.action = baseUrl.replace('__ID__', id);
+
+            document.getElementById('batasLahirTahunNama').textContent = nama || '';
+            document.getElementById('batasLahirInput').value = current || '';
+
+            const modal = document.getElementById('modalBatasLahir');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeBatasLahirModal() {
+            const modal = document.getElementById('modalBatasLahir');
+            if (!modal) return;
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+    </script>
 
 @endsection

@@ -113,14 +113,9 @@
             Master Data
         </h3>
 
-        <a href="{{ route('admin.password.panitia') }}"
-            class="sidebar-link {{ request()->routeIs('admin.password.panitia') ? 'active' : '' }}">
-            🔑 Password Panitia
-        </a>
-
-        <a href="{{ route('admin.password.petugas-keuangan') }}"
-            class="sidebar-link {{ request()->routeIs('admin.password.petugas-keuangan*') ? 'active' : '' }}">
-            💼 Password Petugas Keuangan
+        <a href="{{ route('admin.password.index') }}"
+            class="sidebar-link {{ request()->routeIs('admin.password.*') ? 'active' : '' }}">
+            🔑 Password
         </a>
 
         <a href="{{ route('tahun-ajaran.index') }}"

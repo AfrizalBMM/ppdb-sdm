@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\LaporanKeuanganController;
 use App\Http\Controllers\Admin\LogAktivitasController;
 use App\Http\Controllers\Admin\CetakController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\PasswordController;
 use App\Http\Controllers\Admin\PasswordPanitiaController;
 use App\Http\Controllers\Admin\PasswordPetugasKeuanganController;
 use App\Http\Controllers\Admin\SettingController;
@@ -157,6 +158,10 @@ Route::prefix('admin')
                 [TahunAjaranController::class, 'aktifkan'])
                 ->name('tahun-ajaran.aktifkan');
 
+            Route::put('/tahun-ajaran/{tahunAjaran}/batas-lahir',
+                [TahunAjaranController::class, 'updateBatasLahir'])
+                ->name('tahun-ajaran.batas-lahir');
+
             Route::resource('biaya', BiayaController::class)
                 ->only(['index','store','destroy']);
 
@@ -214,28 +219,28 @@ Route::prefix('admin')
                 [TahunAjaranController::class, 'destroy']
             )->name('tahun-ajaran.destroy');
 
-            Route::get('/password-panitia',
-            [PasswordPanitiaController::class,'index'])
-            ->name('admin.password.panitia');
+            Route::get('/password', [PasswordController::class, 'index'])
+                ->name('admin.password.index');
 
-            Route::post('/password-panitia/store',
-                [PasswordPanitiaController::class,'store'])
+            Route::post('/password/panitia', [PasswordPanitiaController::class, 'store'])
                 ->name('admin.password.panitia.store');
 
-            Route::get('/password-petugas-keuangan',
-                [PasswordPetugasKeuanganController::class,'index'])
-                ->name('admin.password.petugas-keuangan');
+            Route::put('/password/panitia/{passwordPanitia}', [PasswordPanitiaController::class, 'update'])
+                ->name('admin.password.panitia.update');
 
-            Route::post('/password-petugas-keuangan',
-                [PasswordPetugasKeuanganController::class,'store'])
+            Route::delete('/password/panitia/{passwordPanitia}', [PasswordPanitiaController::class, 'destroy'])
+                ->name('admin.password.panitia.destroy');
+
+            Route::post('/password/petugas-keuangan',
+                [PasswordPetugasKeuanganController::class, 'store'])
                 ->name('admin.password.petugas-keuangan.store');
 
-            Route::put('/password-petugas-keuangan/{passwordPetugasKeuangan}',
-                [PasswordPetugasKeuanganController::class,'update'])
+            Route::put('/password/petugas-keuangan/{passwordPetugasKeuangan}',
+                [PasswordPetugasKeuanganController::class, 'update'])
                 ->name('admin.password.petugas-keuangan.update');
 
-            Route::delete('/password-petugas-keuangan/{passwordPetugasKeuangan}',
-                [PasswordPetugasKeuanganController::class,'destroy'])
+            Route::delete('/password/petugas-keuangan/{passwordPetugasKeuangan}',
+                [PasswordPetugasKeuanganController::class, 'destroy'])
                 ->name('admin.password.petugas-keuangan.destroy');
 
             // Website Settings

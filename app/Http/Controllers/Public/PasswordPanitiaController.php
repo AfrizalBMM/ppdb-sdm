@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\PasswordPanitia;
 use Illuminate\Support\Facades\Hash;
-use App\Models\TahunAjaran;
 
 class PasswordPanitiaController extends Controller
 {
@@ -84,29 +83,12 @@ class PasswordPanitiaController extends Controller
             'Mengirim verifikasi password panitia untuk akses halaman: ' . $tujuan . '.'
         );
 
-        $tahunAjaran = TahunAjaran::where('aktif',1)->first();
+        $records = PasswordPanitia::orderByDesc('id')->get();
 
-        if (!$tahunAjaran) {
+        if ($records->isEmpty()) {
             logAktivitas(
                 'Panitia Public - Verifikasi Password Gagal',
-                'Gagal verifikasi password karena tahun ajaran aktif tidak ditemukan.'
-            );
-            
-            if ($isJson) {
-                return response()->json([
-                    'error' => 'Tahun ajaran aktif tidak ditemukan'
-                ], 400);
-            }
-            
-            return back()->with('error','Tahun ajaran aktif tidak ditemukan');
-        }
-
-        $data = PasswordPanitia::where('tahun_ajaran_id',$tahunAjaran->id)->first();
-
-        if (!$data) {
-            logAktivitas(
-                'Panitia Public - Verifikasi Password Gagal',
-                'Gagal verifikasi password karena data password panitia belum tersedia untuk tahun ajaran ID ' . $tahunAjaran->id . '.'
+                'Gagal verifikasi password karena data password panitia belum tersedia.'
             );
             
             if ($isJson) {
@@ -118,7 +100,15 @@ class PasswordPanitiaController extends Controller
             return back()->with('error','Password panitia belum dibuat');
         }
 
-        if (!Hash::check($request->password, $data->password)) {
+        $matched = null;
+        foreach ($records as $data) {
+            if (Hash::check($request->password, $data->password)) {
+                $matched = $data;
+                break;
+            }
+        }
+
+        if (!$matched) {
             logAktivitas(
                 'Panitia Public - Verifikasi Password Gagal',
                 'Password panitia tidak sesuai saat mengakses: ' . $tujuan . '.'
@@ -137,7 +127,7 @@ class PasswordPanitiaController extends Controller
 
         logAktivitas(
             'Panitia Public - Verifikasi Password Berhasil',
-            'Berhasil verifikasi password panitia. Akses pembayaran dibuka untuk tujuan: ' . $tujuan . '.'
+            'Berhasil verifikasi password panitia (ID: ' . $matched->id . ', nama: ' . $matched->nama . '). Akses pembayaran dibuka untuk tujuan: ' . $tujuan . '.'
         );
 
         if ($isJson) {

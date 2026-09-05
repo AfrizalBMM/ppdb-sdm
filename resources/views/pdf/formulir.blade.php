@@ -12,14 +12,13 @@
 
 @page{
     size:215mm 330mm;
-    margin:6mm;
+    margin:8mm;
 }
 
 body{
     margin:0;
     padding:0;
-    padding-bottom:12mm;
-    font-size:11px;
+    font-size:10px;
     color:#000;
 }
 
@@ -41,43 +40,43 @@ body{
 
 .header{
     border:1px solid #000;
-    border-radius:10px;
+    border-radius:8px;
     padding:0;
-    margin-bottom:10px;
+    margin-bottom:6px;
     background:#fff;
     position:relative;
     z-index:2;
 }
 
 .header-title{
-    font-size:14px;
+    font-size:12px;
     font-weight:700;
     font-family:'Helvetica', 'Inter', Arial, sans-serif;
     color:#1e3a8a;
     letter-spacing:.3px;
     margin:0;
-    padding-bottom:6px;
+    padding-bottom:4px;
     text-align:center;
 }
 
 .header-subtitle{
     margin:0;
-    font-size:10.5px;
+    font-size:9.5px;
     color:#000;
 }
 
 .header-body{
-    padding:8px 12px 10px;
+    padding:6px 10px 8px;
 }
 
 .meta{
     width:100%;
     border-collapse:collapse;
-    margin-top:8px;
+    margin-top:6px;
 }
 
 .meta td{
-    padding:4px 6px;
+    padding:3px 5px;
     border:1px solid #000;
     vertical-align:top;
 }
@@ -90,9 +89,9 @@ body{
 }
 
 .section{
-    margin-top:10px;
+    margin-top:6px;
     border:1px solid #000;
-    border-radius:10px;
+    border-radius:8px;
     overflow:hidden;
     position:relative;
     z-index:2;
@@ -100,8 +99,8 @@ body{
 
 .section-title{
     margin:0;
-    padding:7px 10px;
-    font-size:11px;
+    padding:5px 8px;
+    font-size:10px;
     font-weight:700;
     font-family:'Helvetica', 'Inter', Arial, sans-serif;
     letter-spacing:.5px;
@@ -124,7 +123,7 @@ body{
 
 .grid td{
     border:1px solid #000;
-    padding:6px 8px;
+    padding:4px 6px;
     vertical-align:top;
 }
 
@@ -141,7 +140,7 @@ body{
 }
 
 .footer{
-    margin-top:12px;
+    margin-top:8px;
     width:100%;
     border-collapse:collapse;
     position:relative;
@@ -152,7 +151,7 @@ body{
     vertical-align:top;
     width:50%;
     text-align:center;
-    padding-top:4px;
+    padding-top:2px;
 }
 
 .muted{
@@ -160,7 +159,7 @@ body{
 }
 
 .signature{
-    margin-top:44px;
+    margin-top:28px;
     font-weight:700;
 }
 
@@ -170,7 +169,7 @@ body{
     right:0;
     bottom:2mm;
     text-align:center;
-    font-size:9px;
+    font-size:8px;
     color:#000;
     z-index:2;
 }
@@ -302,11 +301,11 @@ body{
         <h3 class="section-title">IDENTITAS PESERTA DIDIK</h3>
         <table class="grid">
             <tr>
-                <td class="k">Nama Lengkap</td><td class="v">{{ $display($siswa->nama ?? null) }}</td>
-                <td class="k">Agama</td><td class="v">{{ $display($siswa->agama ?? 'Islam') }}</td>
+                <td class="k">Nama Lengkap</td><td class="v" colspan="3">{{ $display($siswa->nama ?? null) }}</td>
             </tr>
             <tr>
-                <td class="k">NISN</td><td class="v" colspan="3">{{ $display($siswa->nisn ?? null) }}</td>
+                <td class="k">Agama</td><td class="v">{{ $display($siswa->agama ?? 'Islam') }}</td>
+                <td class="k">NISN</td><td class="v">{{ $display($siswa->nisn ?? null) }}</td>
             </tr>
             <tr>
                 <td class="k">NIK</td><td class="v">{{ $display($siswa->nik ?? null) }}</td>

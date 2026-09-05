@@ -67,6 +67,33 @@ class TahunAjaranController extends Controller
         return back()->with('success', 'Tahun ajaran berhasil di ganti.');
     }
 
+    public function updateBatasLahir(Request $request, TahunAjaran $tahunAjaran)
+    {
+        $validated = $request->validate([
+            'batas_maksimal_lahir' => 'required|date',
+        ], [
+            'batas_maksimal_lahir.required' => 'Tanggal batas maksimal lahir wajib diisi.',
+            'batas_maksimal_lahir.date' => 'Format tanggal tidak valid.',
+        ]);
+
+        $tanggalBaru = \Carbon\Carbon::parse($validated['batas_maksimal_lahir'])->format('Y-m-d');
+        $tanggalLama = $tahunAjaran->batas_maksimal_lahir
+            ? $tahunAjaran->batas_maksimal_lahir->format('Y-m-d')
+            : null;
+
+        $tahunAjaran->update([
+            'batas_maksimal_lahir' => $tanggalBaru,
+        ]);
+
+        logAktivitas(
+            'Tahun Ajaran',
+            'Mengatur batas maksimal lahir tahun ajaran #'.$tahunAjaran->id.' "'.$tahunAjaran->nama.'"'.
+            ($tanggalLama ? ' ('.$tanggalLama.' -> '.$tanggalBaru.')' : ' (sebelumnya belum diatur, sekarang '.$tanggalBaru.')')
+        );
+
+        return back()->with('success', 'Batas maksimal lahir untuk tahun ajaran '.$tahunAjaran->nama.' berhasil disimpan.');
+    }
+
     public function destroy(TahunAjaran $tahunAjaran)
     {
         if ($tahunAjaran->aktif) {

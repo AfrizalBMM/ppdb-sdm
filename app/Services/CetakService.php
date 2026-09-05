@@ -38,8 +38,8 @@ class CetakService
             'petugas' => $namaPetugas
         ]);
 
-        // F4 custom size
-        $pdf->setPaper([0.0, 0.0, 595.0, 935.0], 'portrait');
+        // F4 (215mm x 330mm) — samakan dengan @page di view
+        $pdf->setPaper([0.0, 0.0, 609.45, 935.43], 'portrait');
 
         return $pdf;
     }

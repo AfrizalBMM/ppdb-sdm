@@ -248,14 +248,31 @@ class PendaftaranWizard extends Component
         $this->hobi = $pendukung?->hobi;
         $this->cita_cita = $pendukung?->cita_cita;
 
-        $isManual = false;
-        if ($this->hasDataPendukungColumn('is_tk_manual')) {
-            $isManual = (bool) ($pendukung?->is_tk_manual ?? false);
-        }
+        // is_manual_tk diturunkan dari paud_tk_id: null -> manual, terisi -> dari daftar
+        $isManual = $this->paud_tk_id === null;
         $this->is_manual_tk = $isManual;
 
+        // Untuk kompatibilitas data lama: jika memilih dari daftar (paud_tk_id terisi)
+        // nama_tk_manual biasanya null di data lama -> fallback ke nama PaudTk supaya
+        // field input "Asal TK" tetap terisi saat edit.
         if ($this->hasDataPendukungColumn('nama_tk_manual')) {
             $this->nama_tk_manual = $pendukung?->nama_tk_manual;
+        }
+
+        if (!$this->nama_tk_manual && $this->paud_tk_id) {
+            $paudForNama = PaudTk::find($this->paud_tk_id);
+            if ($paudForNama) {
+                $this->nama_tk_manual = $paudForNama->nama;
+                // Juga fallback alamat_tk jika kosong di data lama
+                if (empty($this->alamat_tk)) {
+                    $this->alamat_tk = trim(
+                        ($paudForNama->alamat ?: '')
+                        . (($paudForNama->kelurahan || $paudForNama->kecamatan)
+                            ? ' ' . trim(($paudForNama->kelurahan ?? '') . (($paudForNama->kecamatan ?? '') ? ' - ' . $paudForNama->kecamatan : ''))
+                            : '')
+                    ) ?: null;
+                }
+            }
         }
 
         $this->nikTersedia = false;
@@ -474,11 +491,34 @@ class PendaftaranWizard extends Component
     }
 
     /**
-     * Dapatkan batas tanggal lahir minimum (6 tahun sebelum cutoff date 30 Juni)
+     * Dapatkan batas tanggal lahir minimum.
+     *
+     * Prioritas:
+     *  1. Membaca kolom `batas_maksimal_lahir` dari tahun ajaran aktif
+     *     (diatur oleh admin di menu Tahun Ajaran).
+     *  2. Jika belum diatur, fallback ke default lama:
+     *     30 Juni tahun berjalan dikurangi 6 tahun.
      */
     private function getMinBirthDate(): \Carbon\Carbon
     {
+        $tahunAjaran = TahunAjaran::aktif()->first();
+
+        if ($tahunAjaran && $tahunAjaran->batas_maksimal_lahir) {
+            return \Carbon\Carbon::parse($tahunAjaran->batas_maksimal_lahir)->startOfDay();
+        }
+
         return $this->getCutoffDate()->subYears(6);
+    }
+
+    /**
+     * Sumber batas lahir yang sedang aktif: 'setting' (admin) atau 'default'.
+     * Dipakai untuk menampilkan hint yang lebih akurat di form.
+     */
+    private function getMinBirthDateSource(): string
+    {
+        $tahunAjaran = TahunAjaran::aktif()->first();
+
+        return ($tahunAjaran && $tahunAjaran->batas_maksimal_lahir) ? 'setting' : 'default';
     }
 
     public function updatedTanggalLahir($value)
@@ -501,7 +541,10 @@ class PendaftaranWizard extends Component
 
         if ($lahir->gt($minBirthDate)) {
             $this->umurKurang = true;
-            $this->addError('tanggal_lahir', 'Calon siswa belum berusia 6 tahun per 30 Juni ' . $this->getCutoffYear() . ' (' . $minBirthDate->format('d/m/Y') . ').');
+            $this->addError(
+                'tanggal_lahir',
+                'Tanggal lahir melebihi batas maksimal yang ditetapkan (' . $minBirthDate->format('d/m/Y') . ').'
+            );
         } else {
             $this->resetErrorBag('tanggal_lahir');
             $this->umurCukup = true;
@@ -924,6 +967,7 @@ class PendaftaranWizard extends Component
                     'edit_siswa_id' => $this->editSiswaId,
                     'sql_state' => $e->errorInfo[0] ?? null,
                     'driver_code' => $e->errorInfo[1] ?? null,
+                    'message' => $e->getMessage(),
                 ]);
             } catch (\Throwable $logError) {
                 // ignore logging failures
@@ -1050,23 +1094,23 @@ class PendaftaranWizard extends Component
                 }
 
                 $dataPendukungPayload = [
-                    'tinggi' => $this->tinggi ? (int) $this->tinggi : null,
-                    'berat' => $this->berat ? (int) $this->berat : null,
+                    'tinggi' => $this->tinggi !== null && $this->tinggi !== '' ? (int) $this->tinggi : null,
+                    'berat' => $this->berat !== null && $this->berat !== '' ? (int) $this->berat : null,
                     'jarak' => $this->normalizeJarakValue($this->jarak),
-                    'jumlah_saudara' => $this->jumlah_saudara ? (int) $this->jumlah_saudara : null,
-                    'anak_ke' => $this->anak_ke ? (int) $this->anak_ke : null,
-                    'paud_tk_id' => $this->is_manual_tk ? null : $this->paud_tk_id,
+                    'jumlah_saudara' => $this->jumlah_saudara !== null && $this->jumlah_saudara !== '' ? (int) $this->jumlah_saudara : null,
+                    'anak_ke' => $this->anak_ke !== null && $this->anak_ke !== '' ? (int) $this->anak_ke : null,
+                    'paud_tk_id' => $this->paud_tk_id !== null && $this->paud_tk_id !== '' ? (int) $this->paud_tk_id : null,
                     'alamat_tk' => $this->alamat_tk,
                     'hobi' => $this->hobi,
                     'cita_cita' => $this->cita_cita,
                 ];
 
                 if ($this->hasDataPendukungColumn('is_tk_manual')) {
-                    $dataPendukungPayload['is_tk_manual'] = (bool) $this->is_manual_tk;
+                    $dataPendukungPayload['is_tk_manual'] = $this->paud_tk_id === null;
                 }
 
                 if ($this->hasDataPendukungColumn('nama_tk_manual')) {
-                    $dataPendukungPayload['nama_tk_manual'] = $this->is_manual_tk ? $this->nama_tk_manual : null;
+                    $dataPendukungPayload['nama_tk_manual'] = $this->nama_tk_manual;
                 }
 
                 DataPendukung::updateOrCreate(
@@ -1182,23 +1226,23 @@ class PendaftaranWizard extends Component
             // ================= DATA PENDUKUNG =================
             $dataPendukungPayload = [
                 'siswa_id' => $siswa->id,
-                'tinggi' => $this->tinggi ? (int) $this->tinggi : null,
-                'berat' => $this->berat ? (int) $this->berat : null,
+                'tinggi' => $this->tinggi !== null && $this->tinggi !== '' ? (int) $this->tinggi : null,
+                'berat' => $this->berat !== null && $this->berat !== '' ? (int) $this->berat : null,
                 'jarak' => $this->normalizeJarakValue($this->jarak),
-                'jumlah_saudara' => $this->jumlah_saudara ? (int) $this->jumlah_saudara : null,
-                'anak_ke' => $this->anak_ke ? (int) $this->anak_ke : null,
-                'paud_tk_id' => $this->is_manual_tk ? null : $this->paud_tk_id,
-                'alamat_tk' => $this->alamat_tk, // ✅ ditambahkan
+                'jumlah_saudara' => $this->jumlah_saudara !== null && $this->jumlah_saudara !== '' ? (int) $this->jumlah_saudara : null,
+                'anak_ke' => $this->anak_ke !== null && $this->anak_ke !== '' ? (int) $this->anak_ke : null,
+                'paud_tk_id' => $this->paud_tk_id !== null && $this->paud_tk_id !== '' ? (int) $this->paud_tk_id : null,
+                'alamat_tk' => $this->alamat_tk,
                 'hobi' => $this->hobi,
                 'cita_cita' => $this->cita_cita,
             ];
 
             if ($this->hasDataPendukungColumn('is_tk_manual')) {
-                $dataPendukungPayload['is_tk_manual'] = (bool) $this->is_manual_tk;
+                $dataPendukungPayload['is_tk_manual'] = $this->paud_tk_id === null;
             }
 
             if ($this->hasDataPendukungColumn('nama_tk_manual')) {
-                $dataPendukungPayload['nama_tk_manual'] = $this->is_manual_tk ? $this->nama_tk_manual : null;
+                $dataPendukungPayload['nama_tk_manual'] = $this->nama_tk_manual;
             }
 
             DataPendukung::create($dataPendukungPayload);
@@ -1489,8 +1533,8 @@ class PendaftaranWizard extends Component
 
             'paud_tk_id' => 'nullable|exists:paud_tk,id',
             'is_manual_tk' => 'nullable|boolean',
-            'nama_tk_manual' => $this->is_manual_tk ? 'required|string|max:150' : 'nullable|string|max:150',
-            'alamat_tk' => $this->is_manual_tk ? 'required|string|max:255' : 'nullable|string|max:255',
+            'nama_tk_manual' => 'required|string|max:150',
+            'alamat_tk' => 'required|string|max:255',
             'hasil_tes' => 'required|in:SB,B,PB,belum test',
         ];
     }
@@ -1510,22 +1554,15 @@ class PendaftaranWizard extends Component
         return round((float) $normalized, 2);
     }
 
+    /**
+     * Hook saat paud_tk_id berubah. Di UX baru, pemilihan TK dari modal
+     * "Daftar TK" sudah ditangani Alpine yang langsung mengisi nama_tk_manual
+     * dan alamat_tk, jadi tidak perlu side effect reset di sini.
+     * Method tetap dipertahankan sebagai no-op agar aman jika dipanggil.
+     */
     public function updatedPaudTkId($id)
     {
-        if (!$id) {
-            if (!$this->is_manual_tk) {
-                $this->alamat_tk = null;
-            }
-            return;
-        }
-
-        $paud = PaudTk::find($id);
-
-        if ($paud) {
-            $this->is_manual_tk = false;
-            $this->nama_tk_manual = null;
-            $this->alamat_tk = "{$paud->kelurahan} - {$paud->kecamatan}";
-        }
+        // no-op
     }
 
     public function render()
@@ -1567,6 +1604,23 @@ class PendaftaranWizard extends Component
         // Data too long / invalid data.
         if ($sqlState === '22001' || str_contains($message, 'data too long')) {
             return 'Ada input yang terlalu panjang untuk kolom database. Periksa kembali teks yang diisi lalu simpan ulang.';
+        }
+
+        // Incorrect integer value / invalid data type (MySQL 1366, SQLSTATE 22007)
+        if ($sqlState === '22007' || $driverCode === 1366) {
+            if (str_contains($message, 'paud_tk_id')) {
+                return 'Data asal TK/PAUD tidak valid. Silakan pilih dari daftar TK atau isi manual dengan benar.';
+            }
+            if (str_contains($message, 'tahun_lahir')) {
+                return 'Tahun lahir harus berupa angka 4 digit (contoh: 1985). Periksa kembali tahun lahir ayah/ibu/wali.';
+            }
+            if (str_contains($message, 'anak_ke')) {
+                return 'Anak ke harus berupa angka. Periksa kembali data pendukung.';
+            }
+            if (str_contains($message, 'tinggi') || str_contains($message, 'berat') || str_contains($message, 'jumlah_saudara')) {
+                return 'Tinggi, berat, dan jumlah saudara harus berupa angka. Periksa kembali data pendukung.';
+            }
+            return 'Ada input angka yang tidak valid. Periksa kembali data yang diisi lalu simpan ulang.';
         }
 
         if ($sqlState === '23000' || $driverCode === 1062) {
