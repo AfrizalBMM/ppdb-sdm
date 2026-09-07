@@ -624,6 +624,16 @@
                             $udpStatus = $getPaymentStatus($tagihanUdp);
                             $statusPpdbSaatIni = (int) (optional($item->registration)->status ?? 0);
                             $isSudahSiswa = $statusPpdbSaatIni === \App\Models\Registration::STATUS_PESERTA_DIDIK;
+
+                            // Payload untuk modal Kelola Tes
+                            $kelolaTesPayload = [
+                                'url' => route('pendaftaran.kelola-tes', $item->id),
+                                'siswaId' => $item->id,
+                                'nama' => $item->nama,
+                                'jenisKelamin' => $item->jenis_kelamin,
+                                'nomorRegistrasi' => optional($item->registration)->nomor_registrasi ?? '-',
+                                'hasilTes' => $item->hasil_tes ?? '',
+                            ];
                         @endphp
 
                         <td class="text-center w-16 min-w-[72px]">
@@ -699,7 +709,7 @@
                                     x: 0,
                                     y: 0,
                                     placement: 'bottom',
-                                    menuHeight: 132,
+                                    menuHeight: 180,
                                     menuWidth: 176,
                                     toggle($el) {
                                         this.triggerEl = $el;
@@ -755,10 +765,22 @@
                                         class="fixed w-44 bg-white border border-border rounded-lg shadow-hover z-dropdown py-1.5 overflow-hidden"
                                         :style="menuStyle()">
 
+                                        <!-- KELOLA TES -->
+                                        <button
+                                            type="button"
+                                            @click="open = false; openKelolaTesModal(@js($kelolaTesPayload))"
+                                            class="flex w-full items-center gap-2.5 px-4 py-2 hover:bg-primary/5 hover:text-primary text-[11px] text-textPrimary transition-colors"
+                                        >
+                                            <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                                            </svg>
+                                            Kelola Tes
+                                        </button>
+
                                         <!-- CETAK -->
                                         <button 
                                             @click="open = false; openModalPetugas({{ $item->id }})"
-                                            class="flex w-full items-center gap-2.5 px-4 py-2 hover:bg-primary/5 hover:text-primary text-[11px] text-textPrimary transition-colors">
+                                            class="flex w-full items-center gap-2.5 px-4 py-2 hover:bg-primary/5 hover:text-primary text-[11px] text-textPrimary transition-colors border-t border-gray-50">
                                             <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
                                             </svg>
@@ -1151,6 +1173,256 @@
     </div>
 
 </div>
+
+<div id="modalKelolaTes"
+     onclick="closeKelolaTesModal()"
+     class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center z-modal p-4 transition-all duration-300">
+
+    <div class="w-full max-w-md overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl transform transition-all" onclick="event.stopPropagation()">
+        <div class="relative overflow-hidden border-b border-slate-100 bg-gradient-to-r from-amber-50 via-white to-sky-50 px-8 py-6">
+            <div class="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-amber-100/60 blur-2xl"></div>
+            <div class="flex items-start gap-4">
+                <div class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-amber-200 bg-amber-100 text-amber-700 text-xl shadow-sm">
+                    📝
+                </div>
+                <div class="pr-8">
+                    <h3 class="text-lg font-bold text-slate-800">Kelola Hasil Tes</h3>
+                    <p class="mt-0.5 text-xs text-slate-500 italic">Perbarui hasil tes calon peserta didik.</p>
+                </div>
+            </div>
+
+            <button
+                type="button"
+                onclick="closeKelolaTesModal()"
+                class="absolute right-4 top-4 rounded-xl p-2 text-slate-400 transition hover:bg-white hover:text-slate-700 hover:shadow-sm"
+                aria-label="Tutup modal"
+            >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="px-8 py-7">
+            <!-- Info ringkas siswa -->
+            <div class="mb-5 rounded-2xl border border-slate-100 bg-slate-50/70 p-4">
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p id="kelolaTesNama" class="truncate text-sm font-semibold text-slate-800">-</p>
+                        <p id="kelolaTesSub" class="mt-0.5 text-xs text-slate-500">-</p>
+                    </div>
+                    <div id="kelolaTesBadgeWrap" class="shrink-0"></div>
+                </div>
+            </div>
+
+            <form id="formKelolaTes" class="space-y-4">
+                @csrf
+                <input type="hidden" name="hasil_tes" id="kelolaTesInputHasil">
+
+                <div>
+                    <label for="kelolaTesSelect" class="mb-1.5 block text-[10px] font-bold uppercase tracking-widest text-slate-400">Pilih Hasil Tes</label>
+                    <select id="kelolaTesSelect" class="w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-700 outline-none transition focus:border-amber-400 focus:ring-2 focus:ring-amber-100">
+                        <option value="">- Pilih Hasil Tes -</option>
+                        <option value="SB">Sangat Baik</option>
+                        <option value="B">Baik</option>
+                        <option value="PB">Perlu Bantuan</option>
+                        <option value="belum test">Belum Test</option>
+                    </select>
+                    <p id="kelolaTesError" class="mt-2 hidden text-xs text-red-600"></p>
+                </div>
+
+                <div class="flex gap-3 pt-2">
+                    <button
+                        type="button"
+                        onclick="closeKelolaTesModal()"
+                        class="flex-1 rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm font-bold text-slate-700 transition hover:bg-slate-50"
+                    >
+                        Batal
+                    </button>
+                    <button id="btnSubmitKelolaTes" type="submit"
+                        class="flex-1 rounded-xl bg-amber-600 px-4 py-3 text-sm font-bold text-white shadow-lg shadow-amber-500/30 transition hover:bg-amber-700"
+                    >
+                        Simpan
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+let kelolaTesActionUrl = '';
+const KELOLA_TES_LABEL = {
+    'SB': 'Sangat Baik',
+    'B': 'Baik',
+    'PB': 'Perlu Bantuan',
+    'belum test': 'Belum Test',
+};
+const KELOLA_TES_BADGE = {
+    'SB': 'border-green-200 bg-green-50 text-green-700',
+    'B': 'border-blue-200 bg-blue-50 text-blue-700',
+    'PB': 'border-amber-200 bg-amber-50 text-amber-700',
+    'belum test': 'border-red-200 bg-red-50 text-red-700',
+};
+
+function normalizeHasilTesValue(value) {
+    const v = String(value || '').trim();
+    if (v === '') return '';
+    if (v.toLowerCase() === 'belum test' || v.toLowerCase() === 'bt') {
+        return 'belum test';
+    }
+    return v.toUpperCase();
+}
+
+function renderKelolaTesBadge(value) {
+    const normalized = normalizeHasilTesValue(value);
+    const label = KELOLA_TES_LABEL[normalized] || 'Belum ada';
+    const colorClass = KELOLA_TES_BADGE[normalized] || 'border-slate-200 bg-slate-50 text-slate-700';
+    const isBelum = normalized === 'belum test';
+
+    const icon = isBelum
+        ? '<svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>'
+        : '<svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>';
+
+    return '<span class="inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-medium ' + colorClass + '">' + icon + label + '</span>';
+}
+
+function openKelolaTesModal(payload) {
+    if (!payload || !payload.url) {
+        showMiniToast('Data siswa tidak valid', 'error');
+        return;
+    }
+
+    kelolaTesActionUrl = payload.url;
+
+    const normalized = normalizeHasilTesValue(payload.hasilTes);
+
+    const namaEl = document.getElementById('kelolaTesNama');
+    const subEl = document.getElementById('kelolaTesSub');
+    const badgeWrap = document.getElementById('kelolaTesBadgeWrap');
+    const selectEl = document.getElementById('kelolaTesSelect');
+    const inputHasil = document.getElementById('kelolaTesInputHasil');
+    const errorEl = document.getElementById('kelolaTesError');
+    const form = document.getElementById('formKelolaTes');
+    const submitBtn = document.getElementById('btnSubmitKelolaTes');
+
+    if (namaEl) namaEl.textContent = payload.nama || '-';
+    if (subEl) subEl.textContent = [
+        payload.nomorRegistrasi ? 'No. Reg: ' + payload.nomorRegistrasi : null,
+        payload.jenisKelamin ? payload.jenisKelamin : null,
+    ].filter(Boolean).join(' • ') || '-';
+
+    if (badgeWrap) badgeWrap.innerHTML = renderKelolaTesBadge(payload.hasilTes);
+    if (selectEl) selectEl.value = normalized;
+    if (inputHasil) inputHasil.value = normalized;
+    if (errorEl) {
+        errorEl.classList.add('hidden');
+        errorEl.textContent = '';
+    }
+
+    if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+    }
+
+    window.openModal('modalKelolaTes');
+}
+
+function closeKelolaTesModal() {
+    window.closeModal('modalKelolaTes');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const selectEl = document.getElementById('kelolaTesSelect');
+    const inputHasil = document.getElementById('kelolaTesInputHasil');
+    if (selectEl && inputHasil) {
+        selectEl.addEventListener('change', function () {
+            inputHasil.value = this.value;
+            const errorEl = document.getElementById('kelolaTesError');
+            if (errorEl) errorEl.classList.add('hidden');
+        });
+    }
+
+    const form = document.getElementById('formKelolaTes');
+    if (!form) return;
+
+    form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        const errorEl = document.getElementById('kelolaTesError');
+        const submitBtn = document.getElementById('btnSubmitKelolaTes');
+
+        const value = inputHasil.value;
+        if (!value) {
+            if (errorEl) {
+                errorEl.textContent = 'Hasil tes wajib dipilih.';
+                errorEl.classList.remove('hidden');
+            }
+            return;
+        }
+
+        if (errorEl) errorEl.classList.add('hidden');
+
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.classList.add('opacity-70', 'cursor-not-allowed');
+        }
+
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch(kelolaTesActionUrl, {
+                method: 'POST',
+                credentials: 'include',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'Accept': 'application/json',
+                    'X-CSRF-TOKEN': formData.get('_token'),
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    hasil_tes: value,
+                }),
+            });
+
+            const data = await response.json().catch(() => ({}));
+            if (!response.ok || data.success === false) {
+                const msg = data.message || (data.errors?.hasil_tes?.[0]) || 'Gagal memperbarui hasil tes';
+                if (errorEl) {
+                    errorEl.textContent = msg;
+                    errorEl.classList.remove('hidden');
+                } else {
+                    showMiniToast(msg, 'error');
+                }
+                return;
+            }
+
+            closeKelolaTesModal();
+
+            // Update badge di baris tabel terkait tanpa reload penuh
+            updateHasilTesBadgeInRow(data.hasil_tes);
+
+            showMiniToast(data.message || 'Hasil tes berhasil diperbarui');
+        } catch (error) {
+            showMiniToast('Terjadi kesalahan saat memproses data', 'error');
+        } finally {
+            if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+            }
+        }
+    });
+});
+
+function updateHasilTesBadgeInRow(newHasilTes) {
+    if (!newHasilTes) return;
+    // Tidak ada cara langsung menemukan baris spesifik tanpa id DOM.
+    // Reload halaman untuk memastikan tampilan badge & filter selalu sinkron.
+    setTimeout(function () {
+        window.location.reload();
+    }, 600);
+}
+</script>
 
 <script>
 let isCetakFormulirListSubmitting = false;

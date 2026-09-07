@@ -602,6 +602,46 @@ class PendaftaranController extends Controller
         ]);
     }
 
+    public function kelolaTes(Request $request, Siswa $siswa)
+    {
+        $validated = $request->validate([
+            'hasil_tes' => ['required', 'string', 'in:SB,B,PB,belum test'],
+        ]);
+
+        $hasilTesBaru = $validated['hasil_tes'];
+        $hasilTesLama = $siswa->getOriginal('hasil_tes');
+
+        if ($hasilTesLama === $hasilTesBaru) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Hasil tes tidak berubah.',
+                'hasil_tes' => $hasilTesBaru,
+                'changed' => false,
+            ]);
+        }
+
+        $siswa->hasil_tes = $hasilTesBaru;
+        $siswa->save();
+
+        $nomorRegistrasi = optional($siswa->refresh()->registration)->nomor_registrasi ?? '-';
+
+        logAktivitas(
+            'Panitia Public - Kelola Hasil Tes',
+            'Mengubah hasil tes siswa ' . ($siswa->nama ?? '-')
+            . ' (ID: ' . $siswa->id
+            . ', No Registrasi: ' . $nomorRegistrasi . ')'
+            . ' dari "' . ($hasilTesLama ?: '-') . '"'
+            . ' menjadi "' . $hasilTesBaru . '".'
+        );
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Hasil tes berhasil diperbarui.',
+            'hasil_tes' => $hasilTesBaru,
+            'changed' => true,
+        ]);
+    }
+
     public function showBiaya(Siswa $siswa)
     {
         $siswa->load([

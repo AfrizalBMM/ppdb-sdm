@@ -12,14 +12,15 @@
 
 @page{
     size:215mm 330mm;
-    margin:8mm;
+    margin:10mm;
 }
 
 body{
     margin:0;
     padding:0;
-    font-size:10px;
+    font-size:11px;
     color:#000;
+    line-height:1.3;
 }
 
 .page{
@@ -31,54 +32,55 @@ body{
     position:fixed;
     top:50%;
     left:50%;
-    width:110mm;
-    margin-left:-55mm;
-    margin-top:-55mm;
+    width:120mm;
+    margin-left:-60mm;
+    margin-top:-60mm;
     opacity:0.045;
     z-index:0;
 }
 
 .header{
-    border:1px solid #000;
+    border:1.2px solid #000;
     border-radius:8px;
     padding:0;
-    margin-bottom:6px;
+    margin-bottom:8px;
     background:#fff;
     position:relative;
     z-index:2;
 }
 
 .header-title{
-    font-size:12px;
+    font-size:13px;
     font-weight:700;
     font-family:'Helvetica', 'Inter', Arial, sans-serif;
     color:#1e3a8a;
     letter-spacing:.3px;
     margin:0;
-    padding-bottom:4px;
+    padding-bottom:5px;
     text-align:center;
 }
 
 .header-subtitle{
     margin:0;
-    font-size:9.5px;
+    font-size:10.5px;
     color:#000;
 }
 
 .header-body{
-    padding:6px 10px 8px;
+    padding:7px 10px 9px;
 }
 
 .meta{
     width:100%;
     border-collapse:collapse;
-    margin-top:6px;
+    margin-top:7px;
 }
 
 .meta td{
-    padding:3px 5px;
+    padding:4px 7px;
     border:1px solid #000;
     vertical-align:top;
+    font-size:11px;
 }
 
 .meta .label{
@@ -89,8 +91,8 @@ body{
 }
 
 .section{
-    margin-top:6px;
-    border:1px solid #000;
+    margin-top:8px;
+    border:1.2px solid #000;
     border-radius:8px;
     overflow:hidden;
     position:relative;
@@ -99,8 +101,8 @@ body{
 
 .section-title{
     margin:0;
-    padding:5px 8px;
-    font-size:10px;
+    padding:6px 9px;
+    font-size:11px;
     font-weight:700;
     font-family:'Helvetica', 'Inter', Arial, sans-serif;
     letter-spacing:.5px;
@@ -123,8 +125,9 @@ body{
 
 .grid td{
     border:1px solid #000;
-    padding:4px 6px;
+    padding:5px 8px;
     vertical-align:top;
+    font-size:11px;
 }
 
 .grid .k{
@@ -140,7 +143,7 @@ body{
 }
 
 .footer{
-    margin-top:8px;
+    margin-top:12px;
     width:100%;
     border-collapse:collapse;
     position:relative;
@@ -151,7 +154,8 @@ body{
     vertical-align:top;
     width:50%;
     text-align:center;
-    padding-top:2px;
+    padding-top:4px;
+    font-size:11px;
 }
 
 .muted{
@@ -159,19 +163,9 @@ body{
 }
 
 .signature{
-    margin-top:28px;
+    margin-top:55px;
     font-weight:700;
-}
-
-.print-footer{
-    position:fixed;
-    left:0;
-    right:0;
-    bottom:2mm;
-    text-align:center;
-    font-size:8px;
-    color:#000;
-    z-index:2;
+    font-size:11px;
 }
 
 </style>
@@ -240,8 +234,8 @@ body{
         : ($ibu->no_hp ?? $dash);
 
     $namaTk = $dash;
-    if ($dataPendukung->is_tk_manual) {
-        $namaTk = $display($dataPendukung->nama_tk_manual ?? null);
+    if (!empty($dataPendukung->nama_tk_manual)) {
+        $namaTk = $display($dataPendukung->nama_tk_manual);
     } elseif ($dataPendukung->paudTk) {
         $namaTk = $display($dataPendukung->paudTk->nama ?? null);
     }
@@ -435,7 +429,6 @@ body{
         </tr>
     </table>
 
-    <div class="print-footer">Dicetak otomatis melalui website https://ppdb.sdmuhwonorejo.com/</div>
 </div>
 
 </body>
