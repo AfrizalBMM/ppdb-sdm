@@ -1271,18 +1271,19 @@ class PendaftaranWizard extends Component
         }
 
         $kodeGender = $this->jenis_kelamin === 'laki-laki' ? 'L' : 'P';
-        $prefix = 'PPDB-TA' . $tahunAjaran . '-' . $kodeGender;
+        $basePrefix = 'PPDB-TA' . $tahunAjaran . '-';
 
         // Locking read to reduce duplicate risk when concurrent inserts happen.
+        // Urutan angka berjalan terus antar gender (L & P) dalam tahun ajaran yg sama.
         $lastNomor = Registration::where('tahun_ajaran_id', $this->tahun_ajaran_id)
-            ->where('nomor_registrasi', 'like', $prefix . '%')
+            ->where('nomor_registrasi', 'like', $basePrefix . '%')
             ->lockForUpdate()
-            ->orderByDesc('nomor_registrasi')
+            ->orderByRaw('CAST(SUBSTRING(nomor_registrasi, -4) AS UNSIGNED) DESC')
             ->value('nomor_registrasi');
 
         $nextUrut = $lastNomor ? ((int) substr($lastNomor, -4)) + 1 : 1;
 
-        return $prefix . str_pad((string) $nextUrut, 4, '0', STR_PAD_LEFT);
+        return $basePrefix . $kodeGender . str_pad((string) $nextUrut, 4, '0', STR_PAD_LEFT);
     }
 
     private function createRegistrationWithRetry(): Registration
